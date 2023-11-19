@@ -34,15 +34,16 @@ The basic analytic statistics on networks are measures that have their focus on 
 
 ```mermaid
 mindmap
-  root(("Ego_3"))
+  root(("Ego"))
     A
     B
     C
 ```
 
-$$D_{i} = number of edges connect to node i$$
 
 </details>
+
+$$D_{i} = number of edges connect to node i$$
 
 <details>
 <summary>Closeness</summary>
