@@ -40,6 +40,8 @@ mindmap
     C
 ```
 
+$$D_{i} = number of edges connect to node i$$
+
 </details>
 
 <details>
