@@ -37,7 +37,7 @@ $$D_{i} = \text{number of edges connected to node} \ i$$
 
 ```mermaid
 mindmap
-  root(("Ego"))
+  root(("Ego: 3"))
     A
     B
     C
