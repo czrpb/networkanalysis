@@ -33,7 +33,7 @@ The basic analytic statistics on networks are measures that have their focus on 
 
 The *degree* of a node are the number of connected edges:
 
-$$D_{i} = \text{number of edges connected to node} \ i$$
+$$deg\(i\) = \text{number of edges connected to node} \ i$$
 
 ```mermaid
 mindmap
@@ -43,6 +43,7 @@ mindmap
     C
 ```
 
+The most basic centrality statistics is called *degree centrality*:
 
 <details>
 <summary>Closeness</summary>
