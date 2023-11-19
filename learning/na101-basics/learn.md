@@ -33,7 +33,7 @@ The basic analytic statistics on networks are measures that have their focus on 
 
 The *degree* of a node are the number of connected edges:
 
-$$D_{i} = number of edges connect to node i$$
+$$D_{i} = \text{number of edges connected to node} \ i$$
 
 ```mermaid
 mindmap
