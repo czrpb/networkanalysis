@@ -34,7 +34,7 @@ The basic analytic statistics on networks are measures that have their focus on 
 
 ```mermaid
 mindmap
-  root(("Ego 3"))
+  root(("Ego_3"))
     A
     B
     C
