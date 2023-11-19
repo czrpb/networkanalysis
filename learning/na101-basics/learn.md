@@ -29,8 +29,11 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 The basic analytic statistics on networks are measures that have their focus on nodes and their "importance" in the network. The technical term for this is called *centrality* and thus these are *centrality measures*
 
 
-<details>
-<summary>Degree</summary>
+#### Degree
+
+The *degree* of a node are the number of connected edges:
+
+$$D_{i} = number of edges connect to node i$$
 
 ```mermaid
 mindmap
@@ -40,10 +43,6 @@ mindmap
     C
 ```
 
-
-</details>
-
-$$D_{i} = number of edges connect to node i$$
 
 <details>
 <summary>Closeness</summary>
