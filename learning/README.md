@@ -10,4 +10,4 @@ Topics:
 - Terms
 - Statistics
 
-[NA101: Basics](/na101-basics/learn.md)
+[NA101: Basics](/learning/na101-basics/learn.md)
