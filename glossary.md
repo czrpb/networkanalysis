@@ -15,7 +15,7 @@ Common measures are:
 
 Closeness centrality measures the distance (or length) from ego to all other nodes.
 
-$$C^{C}_{i} = \frac {n-1} {\sum_{i \not = j} l(i, j)} $$
+$$C^{C}_{i} = \frac {n-1} {\sum_{i \not= j} l(i, j)} $$
 
 ### Degree
 
