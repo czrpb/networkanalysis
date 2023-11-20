@@ -41,21 +41,19 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 #### Degree
 
-|The *degree* of a node are the number of connected edges|The most basic centrality statistics is called *degree centrality*|
+|The *degree* of a node is the number of connected edges|The most basic centrality statistics is called *degree centrality*|
 |---|---|
 |$$d(i) = \text{number of edges connected to node} \ i$$|$$C^{D}_{i} = \frac {d(i)} {n-1} $$|
 |![Degrees](net-basic-001-degrees.png)|![Degree Centrality](net-basic-001-degree_centrality.png)|
 
 
-##### Some Examples
+##### Some More Examples
 
-```mermaid
-mindmap
-  root(("1"))
-    A
-    B
-    C
-```
+Here are more networks, which will be used in later measures also as the above network is pretty simple.
+
+|Star|Clique|Bridge|
+|---|---|---|
+|![Basic001](net-ego-abcd-degrees.png)|![Basic002](net-ego-abcd-ab-degrees.png)|![Basic003](net-ego-abcd-ab-cd-degrees.png)|
 
 <details>
 <summary>Closeness</summary>
