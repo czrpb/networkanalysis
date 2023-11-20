@@ -32,6 +32,8 @@ The basic analytic statistics on networks are measures that have their focus on 
 
 https://en.wikipedia.org/wiki/Centrality
 
+
+
 #### Degree
 
 The *degree* of a node are the number of connected edges:
