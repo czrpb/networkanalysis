@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 <table>
   <tr>
-    <td><img src="network-centralities.png" alt="Common Centrality Measures" width="640"/></td>
+    <td><img src="network-centralities.png" alt="Common Centrality Measures" width="576"/></td>
     <td>
     <p>The basic analytic statistics on networks are measures that have their focus on nodes and their "importance" in the network.</p>
     <br>
