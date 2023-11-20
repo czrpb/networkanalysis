@@ -43,13 +43,15 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 The *degree* of a node are the number of connected edges:
 
-$$d\(i\) = \text{number of edges connected to node} \ i$$
+$$d(i) = \text{number of edges connected to node} \ i$$
 
 ![Degrees](net-basic-001-degrees.png)
 
 The most basic centrality statistics is called *degree centrality*:
 
-$$C^{D}_{i} = \frac {d\(i\)} {n-1} $$
+$$C^{D}_{i} = \frac {d(i)} {n-1} $$
+
+![Degree Centrality](net-basic-001-degree_centrality.png)
 
 ##### Some Examples
 
