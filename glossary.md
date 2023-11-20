@@ -24,7 +24,7 @@ Cent^{C}_{i} =
 $$
 
 $$
-C^{C}_{i} = \sum f
+C^{C}_{i} = \frac {a} {\sum f}
 $$
 
 ### Degree
