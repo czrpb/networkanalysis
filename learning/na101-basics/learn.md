@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 #### Degree
 
 |The *degree* of a node is the number of connected edges|The most basic centrality statistics is called *degree centrality*|
-|---|---|
+|:-:|:-:|
 |$$d(i) = \text{number of edges connected to node} \ i$$|$$C^{D}_{i} = \frac {d(i)} {n-1} $$|
 |<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degree_centrality.png" />|
 
