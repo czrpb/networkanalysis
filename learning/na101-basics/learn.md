@@ -39,8 +39,6 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
   </tr>
 </table>
 
-
-
 #### Degree
 
 The *degree* of a node are the number of connected edges:
@@ -61,13 +59,15 @@ $$C^{D}_{i} = \frac {d\(i\)} {n-1} $$
 
 ##### Some Examples
 
-```mermaid
+|||
+|---|---|
+|```mermaid
 mindmap
   root(("1"))
     A
     B
     C
-```
+```|asdf|
 
 <details>
 <summary>Closeness</summary>
