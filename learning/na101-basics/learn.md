@@ -53,10 +53,10 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 Here are more networks, which will be used in later measures also as the above network is pretty simple.
 
-|Star|Clique|Bridge|Complete|
-|---|---|---|---|
-|![Basic001](net-ego-abcd-degrees.png)|![Basic002](net-ego-abcd-ab-degrees.png)|![Basic003](net-ego-abcd-ab-cd-degrees.png)|![Basic004](net-ego-abcd-complete-degrees.png)|
-|![Basic010](net-ego-abcd-degree_centrality.png)|![Basic020](net-ego-abcd-ab-degree_centrality.png)|![Basic030](net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](net-ego-abcd-complete-degree_centrality.png)|
+||Star|Clique|Bridge|Complete|
+|---|---|---|---|---|
+|Degree|![Basic001](net-ego-abcd-degrees.png)|![Basic002](net-ego-abcd-ab-degrees.png)|![Basic003](net-ego-abcd-ab-cd-degrees.png)|![Basic004](net-ego-abcd-complete-degrees.png)|
+|Degree Centrality|![Basic010](net-ego-abcd-degree_centrality.png)|![Basic020](net-ego-abcd-ab-degree_centrality.png)|![Basic030](net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](net-ego-abcd-complete-degree_centrality.png)|
 
 #### Closeness
 
