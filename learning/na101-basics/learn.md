@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 ### Uses and Usefulness of Network Analysis
 
 
-### Basic Network Analysis: Analytic
+## Basic Network Analysis: Analytic
 
 <table>
   <tr>
@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
   </tr>
 </table>
 
-#### Degree
+### Degree
 
 |The *degree* of a node is the number of connected edges|The most basic centrality statistics is called *degree centrality*|
 |:-:|:-:|
@@ -47,7 +47,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 |<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degree_centrality.png" />|
 
 
-##### Some More Examples
+#### Some More Examples
 
 Here are more networks, which will be used in later measures also as the above network is pretty simple.
 
@@ -65,7 +65,7 @@ Here are more networks, which will be used in later measures also as the above n
 </details>
 
 
-### Basic Network Analysis: Synthetic
+## Basic Network Analysis: Synthetic
 
 The basic synthetic, or wholistic, statistics on networks are measures meant to give information to the overall structure of the network.
 
@@ -75,9 +75,3 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
 
 
 
-
-
-
-<details>
-<summary></summary>
-</details>
