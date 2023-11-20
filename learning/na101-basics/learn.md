@@ -31,7 +31,8 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
     <td><img src="network-centralities.png" alt="Common Centrality Measures" width="512"/></td>
     <td>The basic analytic statistics on networks are measures that have their focus on nodes and their "importance" in the network. The technical term for this is called *centrality* and thus these are *centrality measures*.
     
-    https://en.wikipedia.org/wiki/Centrality
+    <a href="https://en.wikipedia.org/wiki/Centrality" /a>
+    
     </td>
   </tr>
 </table>
