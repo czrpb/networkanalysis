@@ -26,13 +26,11 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 ### Basic Network Analysis: Analytic
 
-<img align="left" src="network-centralities.png" alt="Common Centrality Measures"/>
-
-<div>
+<img align="left" src="network-centralities.png" alt="Common Centrality Measures">
 The basic analytic statistics on networks are measures that have their focus on nodes and their "importance" in the network. The technical term for this is called *centrality* and thus these are *centrality measures*.
 
 https://en.wikipedia.org/wiki/Centrality
-</div>
+</img>
 
 #### Degree
 
