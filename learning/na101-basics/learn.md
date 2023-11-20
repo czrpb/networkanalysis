@@ -48,6 +48,16 @@ The most basic centrality statistics is called *degree centrality*:
 
 $$C^{D}_{i} = \frac {d\(i\)} {n-1} $$
 
+##### Some Examples
+
+```mermaid
+mindmap
+  root(("1"))
+    A
+    B
+    C
+```
+
 <details>
 <summary>Closeness</summary>
 </details>
