@@ -32,7 +32,7 @@ The basic analytic statistics on networks are measures that have their focus on 
 
 https://en.wikipedia.org/wiki/Centrality
 
-<p>&nbsp;</p>
+<div>&nbsp;</div>
 
 #### Degree
 
