@@ -16,15 +16,7 @@ Common measures are:
 Closeness centrality measures the distance (or length) from ego to all other nodes.
 
 $$
-Cent^{C}_{i} =
-( \frac
-{a}
-{\sum_{i \not = j} f}
-)
-$$
-
-$$
-C^{C}_{i} = \frac {n-1} {\sum l(i, j)}
+Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
 $$
 
 ### Degree
