@@ -5,7 +5,7 @@
 
 ### What is a network?
 
-A network<sup></sup>, or graph, are a set of *nodes* and *edges*:
+A [network](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#network) is a set of [nodes](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#node) and [edges](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#edge):
 
 > .
 
