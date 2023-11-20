@@ -11,6 +11,12 @@ Common measures are:
 - Betweenness
 - Katz or Decay
 
+### Closeness (Centrality)
+
+Closeness centrality measures the distance (or length) from ego to all other nodes.
+
+$$C^{C}_{i} = \frac {n-1} {\sum_{\substack{i, j\\i \not = j}} l(i, j)}$$
+
 ### Degree
 
 The number of edges connected to a node.
@@ -20,6 +26,12 @@ The number of edges connected to a node.
 Degree centrality measures the node's importance on the number of edges it has.
 
 $$C^{D}_{i} = \frac {d(i)} {n-1} $$
+
+### Distance
+
+Distance the count of edges in a path between 2 nodes.
+
+Aliases: *Length*
 
 ### Dyad
 
@@ -31,6 +43,10 @@ An *edge* is the relationship in a *dyad*.
 
 Aliases: *Tie*
 
+### Ego
+
+Ego is often used as the "name" of a node that is under investigation.
+
 ### Network
 
 A set of *nodes* connected by *edges*.
@@ -39,7 +55,7 @@ Aliases: *Graph*
 
 ### Node
 
-A *node* is one of the 2 primative elements of a *network*.
+A *node* is one of the 2 primitive elements of a *network*.
 
 Nodes are usually "things" or nouns such as:
 
@@ -49,6 +65,10 @@ Nodes are usually "things" or nouns such as:
   - Cities, ports, stores, etc - as part of a transportation, distribution, supply chain
 - Webpages - when part of an informational network; other examples include:
   - Academic papers, 
+
+### Path
+
+A path is a set of edges that connect 2 nodes.
 
 ### Tie
 
