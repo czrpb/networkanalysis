@@ -6,11 +6,15 @@ Two *nodes* connect by an *edge*.
 
 ### Edge
 
-An *edge*, also known as a *tie*, is the relationship in a *dyad*.
+An *edge* is the relationship in a *dyad*.
+
+Aliases: *Tie*
 
 ### Network
 
 A set of *nodes* connected by *edges*.
+
+Aliases: *Graph*
 
 ### Node
 

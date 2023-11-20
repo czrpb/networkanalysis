@@ -5,7 +5,7 @@
 
 ### What is a network?
 
-A network, or graph, are a set of *nodes* and *edges*:
+A network<sup></sup>, or graph, are a set of *nodes* and *edges*:
 
 > .
 
@@ -69,9 +69,9 @@ Here are more networks, which will be used in later measures also as the above n
 
 The basic synthetic, or wholistic, statistics on networks are measures meant to give information to the overall structure of the network.
 
-- Density
+### Density
 
-- Clusters
+### Clusters
 
 
 
