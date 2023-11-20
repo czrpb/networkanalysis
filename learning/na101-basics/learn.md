@@ -45,13 +45,7 @@ The *degree* of a node are the number of connected edges:
 
 $$d\(i\) = \text{number of edges connected to node} \ i$$
 
-```mermaid
-mindmap
-  root(("Ego: 3"))
-    A
-    B
-    C
-```
+![Degrees](net-basic-001-degrees.png)
 
 The most basic centrality statistics is called *degree centrality*:
 
