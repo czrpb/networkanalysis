@@ -16,7 +16,9 @@ Common measures are:
 Closeness centrality measures the distance (or length) from ego to all other nodes.
 
 $$
-\sum_{i \not = j} f
+\frac
+{a}
+{\sum_{i \not = j} f}
 $$
 
 $$
