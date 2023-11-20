@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
     <td>
     <p>The basic analytic statistics on networks are measures that have their focus on nodes and their "importance" in the network.</p>
     <br>
-    <p>The technical term for this is called <i>centrality</i> and thus these are <i>centrality measures</i>.</p>
+    <p>The technical term for this is called <a href="https://github.com/czrpb/networkanalysis/blob/main/glossary.md#centrality">centrality</a> and thus these are <i>centrality measures</i>.</p>
     <br>
 <p><a href="https://en.wikipedia.org/wiki/Centrality">https://en.wikipedia.org/wiki/Centrality</a></p>
     </td>
@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 #### Degree
 
-|The *degree* of a node is the number of connected edges|The most basic centrality statistics is called *degree centrality*|
+|The [degree](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree) of a node is the number of connected edges|The most basic centrality statistics is called [degree centrality](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree-centrality)|
 |:-:|:-:|
 |$$d(i) = \text{number of edges connected to node} \ i$$|$$C^{D}_{i} = \frac {d(i)} {n-1} $$|
 |<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degree_centrality.png" />|
