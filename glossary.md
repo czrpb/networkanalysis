@@ -1,5 +1,26 @@
 # Glossary of Network Terms
 
+### Centrality
+
+*Centrality* is a measure of a node's "importance" in the network.
+
+Common measures are:
+
+- Degree
+- Closeness
+- Betweenness
+- Katz or Decay
+
+### Degree
+
+The number of edges connected to a node.
+
+### Degree Centrality
+
+Degree centrality measures the node's importance on the number of edges it has.
+
+$$C^{D}_{i} = \frac {d(i)} {n-1} $$
+
 ### Dyad
 
 Two *nodes* connect by an *edge*.
