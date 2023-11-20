@@ -17,6 +17,8 @@ Closeness centrality measures the distance (or length) from ego to all other nod
 
 $$C^{C}_{i} = \frac {n-1} {\sum_{\substack{i, j\\i \not = j}} l(i, j)} $$
 
+$$C^{C}_{i}  $$
+
 ### Degree
 
 The number of edges connected to a node.
