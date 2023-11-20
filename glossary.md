@@ -24,7 +24,7 @@ Cent^{C}_{i} =
 $$
 
 $$
-C^{C}_{i} = \frac {n-1} {\sum_{i} f}
+C^{C}_{i} = \frac {n-1} {\sum l(i, j)}
 $$
 
 ### Degree
