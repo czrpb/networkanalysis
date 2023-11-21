@@ -11,7 +11,7 @@ More formally it is an $n \times n$ matrix $g$ where a node is $g_{ij}$ with a v
 This adjacency matrix:
 
 $$
-\begin{pmatrix}
+g =\begin{pmatrix}
 0 & 1 & 1 \\
 1 & 0 & 1 \\
 1 & 1 & 0
