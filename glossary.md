@@ -47,6 +47,10 @@ Common measures are:
 - Betweenness
 - Katz or Decay
 
+||Degree|Closeness|Betweenness|Decay (Katz)|
+|:-:|:-:|:-:|:-:|:-:|
+||![Kite-Degree](images/net-kite-degree_centrality.png)|![Kite-Closeness](images/net-kite-closeness_centrality.png)|![Kite-Betweenness](images/net-kite-betweenness_centrality.png)|![Kite-Decay](images/net-kite-decay_centrality.png)|
+
 Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#centrality)
 
 ### Clique
