@@ -48,8 +48,9 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 |$$d(i) = \text{number of edges connected to node} \ i$$|$$C^{D}_{i} = \frac {d(i)} {n-1} $$|
 |<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degree_centrality.png" />|
 
+A related wholistic measure is [density]().
 
-##### Some More Examples
+##### More Examples
 
 Here are more networks, which will be used in later measures also as the above network is pretty simple.
 
@@ -59,6 +60,22 @@ Here are more networks, which will be used in later measures also as the above n
 |Degree Centrality|![Basic010](net-ego-abcd-degree_centrality.png)|![Basic020](net-ego-abcd-ab-degree_centrality.png)|![Basic030](net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](net-ego-abcd-complete-degree_centrality.png)|
 
 #### Closeness
+
+Closeness is a measure that means to capture a notion of proximity of a node to all other nodes.
+
+So, if *ego* is 1 step away from all other nodes (ie: the center in a star network) the sum would be $n - 1$. Since generally we want measures $0 \leq c \leq 1$, let us consider this to be the maximum of one and thus closeness would be defined as:
+
+$$
+Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
+$$
+
+<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-closeness_centrality.png" />
+
+##### More Examples
+
+||Star|Clique|Bridge|Complete|
+|---|---|---|---|---|
+|Closeness Centrality|![Basic011](net-ego-abcd-closeness_centrality.png)|![Basic021](net-ego-abcd-ab-closeness_centrality.png)|![Basic031](net-ego-abcd-ab-cd-closeness_centrality.png)|![Basic041](net-ego-abcd-complete-closeness_centrality.png)|
 
 #### Betweenness
 

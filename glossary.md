@@ -37,7 +37,7 @@ Aliases: *Length*
 
 ### Dyad
 
-Two *nodes* connect by an *edge*.
+Two nodes connect by an edge.
 
 ### Edge
 
@@ -51,22 +51,23 @@ Ego is often used as the "name" of a node that is under investigation.
 
 ### Network
 
-A set of *nodes* connected by *edges*.
+A set of nodes connected by edges.
 
 Aliases: *Graph*
 
 ### Node
 
-A *node* is one of the 2 primitive elements of a *network*.
+A node is one of the 2 primitive elements of a network.
 
 Nodes are usually "things" or nouns such as:
 
 - People - when part of a social network; other examples include:
   - Plants and animals in an ecosystem
+  - Social media
 - Computers: when part of a physical network; other examples include:
   - Cities, ports, stores, etc - as part of a transportation, distribution, supply chain
 - Webpages - when part of an informational network; other examples include:
-  - Academic papers, 
+  - Academic papers, movie actors, 
 
 ### Path
 
