@@ -69,7 +69,10 @@ $$
 Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
 $$
 
-<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-closeness_centrality.png" />
+
+|$n-1$|$\sum l(i, j)$||
+|:-:|:-:|:-:|
+|3|3|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-closeness_centrality.png" />|
 
 ##### More Examples
 
