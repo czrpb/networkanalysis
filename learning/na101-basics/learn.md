@@ -21,8 +21,6 @@ Networks are everywhere, such as:
 
 https://www.youtube.com/watch?v=yAtsm5xkb5c
 
-### Uses and Usefulness of Network Analysis
-
 
 ## Basic Network Analysis: Analytic
 
@@ -36,7 +34,9 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
     <br>
     <p>The technical term for this is called <a href="https://github.com/czrpb/networkanalysis/blob/main/glossary.md#centrality">centrality</a> and thus these are <i>centrality measures</i>.</p>
     <br>
-<p><a href="https://en.wikipedia.org/wiki/Centrality">https://en.wikipedia.org/wiki/Centrality</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/Centrality">https://en.wikipedia.org/wiki/Centrality</a></p>
+    <br>
+    <p><a href="https://www.youtube.com/watch?v=NgUj8DEH5Tc">https://www.youtube.com/watch?v=NgUj8DEH5Tc</a></p>
     </td>
   </tr>
 </table>
@@ -79,6 +79,12 @@ $$
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
 |Closeness Centrality|![Basic011](net-ego-abcd-closeness_centrality.png)|![Basic021](net-ego-abcd-ab-closeness_centrality.png)|![Basic031](net-ego-abcd-ab-cd-closeness_centrality.png)|![Basic041](net-ego-abcd-complete-closeness_centrality.png)|
+
+##### References
+
+
+https://youtu.be/89mxOdwPfxA?si=DuQEbZ7RjJbqsLS_&t=810
+
 
 #### Betweenness
 
