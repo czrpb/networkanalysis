@@ -55,6 +55,12 @@ $$
 
 Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#closeness)
 
+### Cycle
+
+A walk that starts and ends at the same node.
+
+See *Path*, *Walk*, *Geodesic*.
+
 ### Degree
 
 The number of edges connected to a node.
@@ -101,9 +107,15 @@ A common data structure to represent a network, implemented as a *list of 2-tupl
 
 Ego is often used as the "name" of or reference to a specific node that is under investigation.
 
+### Geodesic
+
+A shortest path between 2 nodes.
+
+See *Path*, *Walk*, *Cycle*.
+
 ### Length
 
-See *Distance*
+Alias for: *Distance*
 
 ### Network
 
@@ -138,16 +150,24 @@ Aliases: *Vertex*
 
 ### Path
 
-A path is a set of edges that connect 2 nodes.
+A path is a set of edges that connect 2 nodes, without repeating nodes.
+
+See *Walk*, *Geodesic*, *Cycle*.
 
 ### Tie
 
-See *Edge*.
+Alias for: *Edge*.
 
 ### Triangle
 
-See *Clique*.
+Alias for: *Clique*.
 
 ### Vertex
 
-See *Node*.
+Alias for: *Node*.
+
+### Walk
+
+A walk is a set of edges that connect 2 nodes, possibly repeating nodes.
+
+See *Path*, *Geodesic*, *Cycle*.
