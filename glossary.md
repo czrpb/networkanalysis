@@ -55,9 +55,21 @@ $$
 
 Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#closeness)
 
+### Component
+
+A connected set of nodes in a network where there are $\geq 2$ such sets.
+
+![ABC](images/net-2components.png)
+
+### Connected
+
+A set of nodes where there exists a path for all pairs of nodes.
+
+![ABC](images/net-clique-abc.png)
+
 ### Cycle
 
-A walk that starts and ends at the same node.
+A path that starts and ends at the same node.
 
 See *Path*, *Walk*, *Geodesic*.
 
