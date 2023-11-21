@@ -83,7 +83,7 @@ $$
 ##### References
 
 
-https://youtu.be/89mxOdwPfxA?si=DuQEbZ7RjJbqsLS_&t=810
+https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 
 #### Betweenness
