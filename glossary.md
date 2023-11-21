@@ -13,6 +13,14 @@ Common measures are:
 
 Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#centrality)
 
+### Clique
+
+Three nodes each connected to the other 2.
+
+![ABC](images/net-clique-abc.png)
+
+Aliases: *Triangle*
+
 ### Closeness (Centrality)
 
 Closeness centrality measures the distance (or length) from ego to all other nodes.
@@ -69,6 +77,10 @@ A common data structure to represent a network, implemented as a *list of 2-tupl
 
 Ego is often used as the "name" of or reference to a specific node that is under investigation.
 
+### Length
+
+See *Distance*
+
 ### Network
 
 A set of nodes connected by edges.
@@ -107,6 +119,10 @@ A path is a set of edges that connect 2 nodes.
 ### Tie
 
 See *Edge*.
+
+### Triangle
+
+See *Clique*.
 
 ### Vertex
 
