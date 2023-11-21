@@ -24,6 +24,18 @@ gives this network:
 
 ![ABC](images/net-clique-abc.png)
 
+### Bridge
+
+A node in a network such that if removed increases the number of components in the network.
+
+A good, though not the only, example in the following network would be $\text{Node-Z}$:
+
+![ABC](images/net-bridge.png)
+
+resulting in:
+
+![ABC](images/net-2components.png)
+
 ### Centrality
 
 *Centrality* is a measure of a node's "importance" in the network.
