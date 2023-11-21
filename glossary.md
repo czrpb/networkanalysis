@@ -74,10 +74,12 @@ Nodes are usually "things" or nouns such as:
 - People - when part of a social network; other examples include:
   - Plants and animals in an ecosystem
   - Social media
-- Computers: when part of a physical network; other examples include:
+- Computers - when part of a physical network; other examples include:
   - Cities, ports, stores, etc - as part of a transportation, distribution, supply chain
 - Webpages - when part of an informational network; other examples include:
   - Academic papers, movie actors, 
+
+Nodes are connected or related to each other via edges.
 
 ### Path
 
