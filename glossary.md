@@ -8,7 +8,7 @@ The rows and columns are nodes, and the cells' represent their relatedness.
 
 More formally it is an $n \times n$ matrix $g$ where a node is $g_{ij}$ with a value of $0$ if unrelated and $\gt 0$ when related in some way.
 
-This adjacency matrix:
+For the network with nodes $N = ({\text{Node-A},\space\text{Node-B},\space\text{Node-C}})$ and this adjacency matrix:
 
 $$
 g =\begin{pmatrix}
