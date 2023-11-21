@@ -25,7 +25,8 @@ print(edges)
 g = nx.Graph()
 g.add_edges_from(edges)
 
-g = nx.relabel_nodes(g, dict([(n, f"{n}\n{c_func[0](g)[n]:.2f}") for n in g]))
+if c_func:
+    g = nx.relabel_nodes(g, dict([(n, f"{n}\n{c_func[0](g)[n]:.2f}") for n in g]))
 
 plt.subplots(figsize=(3, 3))
 nx.draw_networkx(g)
