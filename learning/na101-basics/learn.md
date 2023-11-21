@@ -61,9 +61,9 @@ Here are more networks, which will be used in later measures also as the above n
 
 #### Closeness
 
-Closeness is a measure that means to capture a notion of proximity of a node to all other nodes.
+[Closeness](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#closeness-centrality) is a measure that means to capture a notion of proximity of a node to all other nodes.
 
-So, if *ego* is 1 step away from all other nodes (ie: the center in a star network) the sum would be $n - 1$. Since generally we want measures $0 \leq c \leq 1$, let us consider this to be the maximum of one and thus closeness would be defined as:
+So, if *ego* is 1 step away from all other nodes (ie: the center in a star network) the sum would be $n - 1$. Since generally we want measures $0 \leq c \leq 1$, let us consider this to be the maximum of $1$ and thus closeness would be defined as:
 
 $$
 Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
