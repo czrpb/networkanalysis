@@ -46,7 +46,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 |The [degree](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree) of a node is the number of connected edges|The most basic centrality statistics is called [degree centrality](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree-centrality)|
 |:-:|:-:|
 |$$d(i) = \text{number of edges connected to node} \ i$$|$$C^{D}_{i} = \frac {d(i)} {n-1} $$|
-|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-degree_centrality.png" />|
+|<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-degree_centrality.png" />|
 
 A related wholistic measure is [density]().
 
@@ -56,8 +56,8 @@ Here are more networks, which will be used in later measures also as the above n
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Degree|![Basic001](net-ego-abcd-degrees.png)|![Basic002](net-ego-abcd-ab-degrees.png)|![Basic003](net-ego-abcd-ab-cd-degrees.png)|![Basic004](net-ego-abcd-complete-degrees.png)|
-|Degree Centrality|![Basic010](net-ego-abcd-degree_centrality.png)|![Basic020](net-ego-abcd-ab-degree_centrality.png)|![Basic030](net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](net-ego-abcd-complete-degree_centrality.png)|
+|Degree|![Basic001](../../images/net-ego-abcd-degrees.png)|![Basic002](../../images/net-ego-abcd-ab-degrees.png)|![Basic003](../../images/net-ego-abcd-ab-cd-degrees.png)|![Basic004](../../images/net-ego-abcd-complete-degrees.png)|
+|Degree Centrality|![Basic010](../../images/net-ego-abcd-degree_centrality.png)|![Basic020](../../images/net-ego-abcd-ab-degree_centrality.png)|![Basic030](../../images/net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](../../images/net-ego-abcd-complete-degree_centrality.png)|
 
 #### Closeness
 
@@ -72,13 +72,13 @@ $$
 
 |$n-1$|$\sum l(i, j)$||
 |:-:|:-:|:-:|
-|3|3|<img src="https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/net-basic-001-closeness_centrality.png" />|
+|3|3|<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-closeness_centrality.png" />|
 
 ##### More Examples
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Closeness Centrality|![Basic011](net-ego-abcd-closeness_centrality.png)|![Basic021](net-ego-abcd-ab-closeness_centrality.png)|![Basic031](net-ego-abcd-ab-cd-closeness_centrality.png)|![Basic041](net-ego-abcd-complete-closeness_centrality.png)|
+|Closeness Centrality|![Basic011](../../images/net-ego-abcd-closeness_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-closeness_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-closeness_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-closeness_centrality.png)|
 
 ##### References
 
