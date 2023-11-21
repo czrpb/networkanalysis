@@ -1,5 +1,27 @@
 # Glossary of Network Terms
 
+### Adjacency Matrix
+
+A common data structure used to represent a network.
+
+The rows and columns are nodes, and the cells' represent their relatedness.
+
+More formally it is an $n \times n$ matrix $g$ where a node is $g_{ij}$ with a value of $0$ if unrelated and $\gt 0$ when related in some way.
+
+This adjacency matrix:
+
+$$
+\begin{pmatrix}
+0 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 0
+\end{pmatrix}
+$$
+
+gives this network:
+
+![ABC](images/net-clique-abc.png)
+
 ### Centrality
 
 *Centrality* is a measure of a node's "importance" in the network.
