@@ -91,6 +91,14 @@ A path that starts and ends at the same node.
 
 See *Path*, *Walk*, *Geodesic*.
 
+### Decay Centrality
+
+A measure of a node's important where distance to another node attenuates. It is similar to closeness but the "weight" of edges is $0 \lt \delta \lt 1$.
+
+$$
+C_{i}^{\delta} = \frac {\delta(n-1)} {\sum \delta^{l_{i}}}
+$$
+
 ### Degree
 
 The number of edges connected to a node.
