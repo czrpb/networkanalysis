@@ -11,6 +11,8 @@ Common measures are:
 - Betweenness
 - Katz or Decay
 
+Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#centrality)
+
 ### Closeness (Centrality)
 
 Closeness centrality measures the distance (or length) from ego to all other nodes.
@@ -19,15 +21,23 @@ $$
 Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
 $$
 
+Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#closeness)
+
 ### Degree
 
 The number of edges connected to a node.
+
+Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
 
 ### Degree Centrality
 
 Degree centrality measures the node's importance on the number of edges it has.
 
 $$Cent^{D}_{i} = \frac {d(i)} {n-1} $$
+
+Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
+
+### Density
 
 ### Distance
 
