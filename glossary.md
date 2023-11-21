@@ -67,6 +67,12 @@ $$
 
 Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#closeness)
 
+### Complete
+
+A network where there exists a dyad between all nodes.
+
+![Complete](images/net-complete.png)
+
 ### Component
 
 A connected set of nodes in a network where there are $\geq 2$ such sets.
@@ -177,6 +183,12 @@ Aliases: *Vertex*
 A path is a set of edges that connect 2 nodes, without repeating nodes.
 
 See *Walk*, *Geodesic*, *Cycle*.
+
+### Star
+
+A network where there is 1 node connected to all other nodes and no other dyads exist.
+
+![Star](images/net-star.png)
 
 ### Tie
 
