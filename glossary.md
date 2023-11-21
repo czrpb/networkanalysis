@@ -32,7 +32,7 @@ A good, though not the only, example in the following network would be $\text{No
 
 ![ABC](images/net-bridge.png)
 
-resulting in:
+when removed results in:
 
 ![ABC](images/net-2components.png)
 
