@@ -128,7 +128,7 @@ A connected set of nodes in a network where there are $\geq 2$ such sets.
 
 ### Connected
 
-A set of nodes where there exists a path for all pairs of nodes.
+A network where there exists a path for all pairs of nodes.
 
 ![ABC](images/net-clique-abc.png)
 
@@ -192,6 +192,10 @@ A common data structure to represent a network, implemented as a *list of 2-tupl
 
 Ego is often used as the "name" of or reference to a specific node that is under investigation.
 
+### Forest
+
+A set of tree components.
+
 ### Geodesic
 
 A shortest path between 2 nodes.
@@ -201,6 +205,10 @@ See *Path*, *Walk*, *Cycle*.
 ### Length
 
 Alias for: *Distance*
+
+### Neighbors
+
+The set of nodes connected (by an edge) to a node.
 
 ### Network
 
@@ -248,6 +256,10 @@ A network where there is 1 node connected to all other nodes and no other dyads 
 ### Tie
 
 Alias for: *Edge*.
+
+### Tree
+
+A network where there are no cycles.
 
 ### Triangle
 
