@@ -47,6 +47,10 @@ Common measures are:
 - Betweenness
 - Katz or Decay
 
+##### Kite Network
+
+A *kite* network is a very basic network useful to see some basic network properties. Here is such a network annotated with centrality measures.
+
 ||Degree|Closeness|
 |:-:|:-:|:-:|
 ||![Kite-Degree](images/net-kite-degree_centrality.png)|![Kite-Closeness](images/net-kite-closeness_centrality.png)|
@@ -55,7 +59,7 @@ Common measures are:
 
 ##### Florentine Families
 
-The [Florentine Families]() network is a small and often used dataset to explore influence. The Medici family was quite powerful during this time through a series of strategic marriages.
+The Florentine Families network is a small and often used dataset to explore influence. The Medici family was quite powerful during this time through a series of strategic marriages.
 
 Exploring this dataset via centrality measures reveals this and other interesting network features/families.
 
@@ -65,7 +69,7 @@ Exploring this dataset via centrality measures reveals this and other interestin
 ||**Betweenness**|**Decay (Katz)**|
 ||![Florentine-Betweenness](images/net-florentine-betweenness.png)|![Florentine-Decay](images/net-florentine-decay.png)|
 
-**References**
+###### References
 
 Historical Description of the Medici family, others, and the time
 
