@@ -16,6 +16,8 @@ def sum_of_weighted_paths_by_node(g, decay=1):
 
 nx.decay_centrality = lambda g, decay=0.5: sum_of_weighted_paths_by_node(g, decay)
 
+title = []
+dim = [[3,3]]
 c_func = []
 
 def mk_pairs(l):
@@ -23,8 +25,20 @@ def mk_pairs(l):
   match l:
     case [(_, _), *_]:
       pass
-    case [centrality, *_] if centrality.startswith("--"):
-      c_func.append(getattr(nx, f"{centrality[2:]}"))
+    case [centrality, *_] if (centrality.startswith("--")
+                              and centrality.endswith("_centrality")):
+      title.append(centrality)
+      c_func.append(getattr(nx, centrality[2:]))
+      l.pop(0)
+      mk_pairs(l)
+    case [graph, *_] if (graph.startswith("--")
+                         and graph.endswith("_graph")):
+      title.append(graph)
+      l.pop(0)
+      l.extend(list(getattr(nx, graph[2:])().edges))
+      mk_pairs(l)
+    case [d, *_] if d.startswith("--dim"):
+      dim.append([int(_) for _ in d.split("=")[1].split(",")])
       l.pop(0)
       mk_pairs(l)
     case _:
@@ -34,6 +48,7 @@ def mk_pairs(l):
 edges = sys.argv[1:]
 
 mk_pairs(edges)
+print(edges)
 
 g = nx.Graph()
 g.add_edges_from(edges)
@@ -42,6 +57,8 @@ if c_func:
     centralities = c_func[0](g)
     g = nx.relabel_nodes(g, dict([(n, f"{n}\n{centralities[n]:.2f}") for n in g]))
 
-plt.subplots(figsize=(3, 3))
+print(dim)
+fig, ax = plt.subplots(figsize=dim[-1])
+ax.set_title(",".join(title))
 nx.draw_networkx(g)
 plt.show()

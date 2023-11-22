@@ -53,6 +53,12 @@ Common measures are:
 ||**Betweenness**|**Decay (Katz)**|
 ||![Kite-Betweenness](images/net-kite-betweenness_centrality.png)|![Kite-Decay](images/net-kite-decay_centrality.png)|
 
+||Degree|Closeness|
+|:-:|:-:|:-:|
+||![Florentine-Degree](images/net-florentine-degree.png)|![Florentine-Closeness](images/net-florentine-closeness.png)|
+||**Betweenness**|**Decay (Katz)**|
+||![Florentine-Betweenness](images/net-florentine-betweenness.png)|![Florentine-Decay](images/net-florentine-decay.png)|
+
 Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#centrality)
 
 ### Clique
