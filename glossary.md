@@ -112,7 +112,9 @@ $$
 Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
 $$
 
-Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#closeness)
+##### Lessons
+
+[101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#closeness)
 
 ### Complete
 
