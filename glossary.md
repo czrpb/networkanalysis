@@ -53,13 +53,36 @@ Common measures are:
 ||**Betweenness**|**Decay (Katz)**|
 ||![Kite-Betweenness](images/net-kite-betweenness_centrality.png)|![Kite-Decay](images/net-kite-decay_centrality.png)|
 
+##### Florentine Families
+
+The [Florentine Families]() network is a small and often used dataset to explore influence. The Medici family was quite powerful during this time through a series of strategic marriages.
+
+Exploring this dataset via centrality measures reveals this and other interesting network features/families.
+
 ||Degree|Closeness|
 |:-:|:-:|:-:|
 ||![Florentine-Degree](images/net-florentine-degree.png)|![Florentine-Closeness](images/net-florentine-closeness.png)|
 ||**Betweenness**|**Decay (Katz)**|
 ||![Florentine-Betweenness](images/net-florentine-betweenness.png)|![Florentine-Decay](images/net-florentine-decay.png)|
 
-Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#centrality)
+**References**
+
+Historical Description of the Medici family, others, and the time
+
+https://www.destinationflorence.com/en/blog/292-the-medici-dynasty-the-intriguing-and-influential-florentine-family
+https://en.wikipedia.org/wiki/House_of_Medici
+
+Original social network analysis paper on these relationships
+
+https://www.researchgate.net/publication/248519014_An_Information_Flow_Model_for_Conflict_and_Fission_in_Small_Groups1
+
+NetworkX graph
+
+https://networkx.org/documentation/latest/reference/generated/networkx.generators.social.florentine_families_graph.html#networkx.generators.social.florentine_families_graph
+
+##### Lessons
+
+[101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#centrality)
 
 ### Clique
 
