@@ -96,6 +96,12 @@ https://networkx.org/documentation/latest/reference/generated/networkx.generator
 
 [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#centrality)
 
+### Circle
+
+A network with 1 cycle where all nodes are of degree 2.
+
+![Circle](net-circle.png)
+
 ### Clique
 
 Three nodes each connected to the other 2.
@@ -175,6 +181,10 @@ $$
 $$
 
 ##### Lessons
+
+### Diameter
+
+The length of the largest distance.
 
 ### Digraph
 
