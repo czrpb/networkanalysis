@@ -150,7 +150,9 @@ $$
 
 The number of edges connected to a node.
 
-Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
+##### Lessons
+
+[101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
 
 ### Degree Centrality
 
@@ -158,9 +160,19 @@ Degree centrality measures the node's importance on the number of edges it has.
 
 $$Cent^{D}_{i} = \frac {d(i)} {n-1} $$
 
-Lessons: [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
+##### Lessons
+
+[101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
 
 ### Density
+
+A maximally dense network would be a complete network, thus density is:
+
+$$
+\frac {Avg(d)} {n-1}
+$$
+
+##### Lessons
 
 ### Digraph
 
