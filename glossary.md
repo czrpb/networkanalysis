@@ -74,13 +74,20 @@ Exploring this dataset via centrality measures reveals this and other interestin
 Historical Description of the Medici family, others, and the time
 
 https://www.destinationflorence.com/en/blog/292-the-medici-dynasty-the-intriguing-and-influential-florentine-family
+
 https://en.wikipedia.org/wiki/House_of_Medici
 
 Original social network analysis paper on these relationships
 
-https://www.researchgate.net/publication/248519014_An_Information_Flow_Model_for_Conflict_and_Fission_in_Small_Groups1
+???
 
-NetworkX graph
+Dataset(s) and Tools
+
+http://www.casos.cs.cmu.edu/computational_tools/datasets/external/padgett/index2.html
+
+https://datarepository.wolframcloud.com/resources/Florentine-Families-Network/
+
+https://www.wolfram.com/mathematica/new-in-9/social-network-analysis/centrality-and-prestige-of-florentine-families.html
 
 https://networkx.org/documentation/latest/reference/generated/networkx.generators.social.florentine_families_graph.html#networkx.generators.social.florentine_families_graph
 
