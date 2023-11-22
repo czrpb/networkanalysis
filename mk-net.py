@@ -26,7 +26,8 @@ def mk_pairs(l):
     case [(_, _), *_]:
       pass
     case [centrality, *_] if (centrality.startswith("--")
-                              and centrality.endswith("_centrality")):
+                              and (centrality.endswith("_centrality")
+                                   or centrality.endswith("pagerank"))):
       title.append(centrality)
       c_func.append(getattr(nx, centrality[2:]))
       l.pop(0)

@@ -68,6 +68,7 @@ Exploring this dataset via centrality measures reveals this and other interestin
 ||![Florentine-Degree](images/net-florentine-degree.png)|![Florentine-Closeness](images/net-florentine-closeness.png)|
 ||**Betweenness**|**Decay (Katz)**|
 ||![Florentine-Betweenness](images/net-florentine-betweenness.png)|![Florentine-Decay](images/net-florentine-decay.png)|
+||![Florentine-Katz](images/net-florentine-katz.png)|![Florentine-PageRank](images/net-florentine-pagerank.png)|
 
 ###### References
 
