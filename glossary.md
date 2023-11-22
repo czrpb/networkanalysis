@@ -104,11 +104,11 @@ A network with 1 cycle where all nodes are of degree 2.
 
 ### Clique
 
-Three nodes each connected to the other 2.
+A maximally complete subnetwork.
 
-![ABC](images/net-clique-abc.png)
+![ABCDE](images/net-clique-abcde.png)
 
-Aliases: *Triangle*
+See *Triangle*
 
 ### Closeness (Centrality)
 
@@ -287,7 +287,11 @@ A network where there are no cycles.
 
 ### Triangle
 
-Alias for: *Clique*.
+The smallest possible clique.
+
+![ABC](images/net-clique-abc.png)
+
+See *Clique*.
 
 ### Vertex
 
