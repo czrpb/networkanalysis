@@ -87,6 +87,11 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 #### Decay
 
+##### More Examples
+
+||Star|Clique|Bridge|Complete|
+|---|---|---|---|---|
+|Decay Centrality|![Basic011](../../images/net-ego-abcd-decay_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-decay_centrality.png)|
 
 #### Betweenness
 
