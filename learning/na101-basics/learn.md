@@ -7,6 +7,15 @@
 
 A [network](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#network) is a set of [nodes](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#node) and [edges](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#edge):
 
+
+https://visiblenetworklabs.com/guides/network-science-101/
+
+[Exploring Complex Networks](ref/2001-ExploringComplexNetworks-Strogatz.pdf)
+
+##### Additional Material
+
+[The Structure and Function of Complex Networks](ref/2003-TheStructureAndFunctionOfComplexNetworks-Newman.pdf)
+
 > .
 
 > .
