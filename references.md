@@ -20,6 +20,11 @@ https://en.wikipedia.org/wiki/Closeness_centrality
 
 https://cnets.indiana.edu/
 
+https://www.networkscienceinstitute.org/
+
+- https://www.khoury.northeastern.edu/research_areas/network-science/
+
+
 ## Books
 
 [Analyzing the Social Web](https://www.oreilly.com/library/view/analyzing-the-social/9780124055315/)
