@@ -226,6 +226,28 @@ A shortest path between 2 nodes.
 
 See *Path*, *Walk*, *Cycle*.
 
+#### Mean Geodesic
+
+The mean geodesic $\bar{l}$ is the average path length. There are 2 ways to think of this:
+
+*From a random node* $i$:
+
+- And another random node $j$, what is the expected number of edges?
+- If the nodes are say webpages, how many clicks are expected to another random page?
+
+Formally:
+
+$$
+\bar{l} = \frac {\sum_{i \not = j} d(i,j)} {n(n-1)}
+$$
+
+> Divide the sum of the distances between all dyads by the number of possible dyads.
+
+||Star|Circle|Complete|
+|---|---|---|---|
+||a|b|c|
+
+
 ### Length
 
 Alias for: *Distance*
