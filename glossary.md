@@ -243,9 +243,9 @@ $$
 
 > Divide the sum of the distances between all dyads by the number of possible dyads.
 
-||Star|Circle|Complete|
+||Star|Cycle|Complete|
 |---|---|---|---|
-||a|b|c|
+||![6 Star](images/net-star-6.png)|![6 Star](images/net-cycle-6.png)|![6 Star](images/net-complete-6.png)|
 
 
 ### Length

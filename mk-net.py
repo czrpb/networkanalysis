@@ -33,10 +33,16 @@ def mk_pairs(l):
       l.pop(0)
       mk_pairs(l)
     case [graph, *_] if (graph.startswith("--")
-                         and graph.endswith("_graph")):
+                         and "_graph" in graph):
       title.append(graph)
       l.pop(0)
-      l.extend(list(getattr(nx, graph[2:])().edges))
+      name, n = graph.split("=")
+      g = getattr(nx, name[2:])
+      if n:
+        g = g(int(n))
+      else:
+        g = g()
+      l.extend(list(g.edges))
       mk_pairs(l)
     case [d, *_] if d.startswith("--dim"):
       dim.append([int(_) for _ in d.split("=")[1].split(",")])
@@ -49,7 +55,7 @@ def mk_pairs(l):
 edges = sys.argv[1:]
 
 mk_pairs(edges)
-print(edges)
+#print(edges)
 
 g = nx.Graph()
 g.add_edges_from(edges)
@@ -58,7 +64,6 @@ if c_func:
     centralities = c_func[0](g)
     g = nx.relabel_nodes(g, dict([(n, f"{n}\n{centralities[n]:.2f}") for n in g]))
 
-print(dim)
 fig, ax = plt.subplots(figsize=dim[-1])
 ax.set_title(",".join(title))
 nx.draw_networkx(g)
