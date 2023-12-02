@@ -246,7 +246,7 @@ $$
 ||Star|Cycle|Complete|
 |---|---|---|---|
 ||![6 Star](images/net-star-6.png)|![6 Star](images/net-cycle-6.png)|![6 Star](images/net-complete-6.png)|
-
+|$\bar{l}$|||1|
 
 ### Length
 
