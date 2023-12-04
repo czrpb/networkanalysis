@@ -48,7 +48,11 @@ $$
 C_{k}^{B} = \sum_{i,j \not = k} \frac {\sigma_{k}(i,j)} {\sigma(i,j)}
 $$
 
+where $\sigma$ is the number of shortest paths between 2 nodes, here $i$ and $j$.
 
+||Only `Node-A`| No Nodes|
+|:-:|:-:|:-:|
+||![Node-A](images/net-NodeA-Betweenness.png)|![No-Nodes](images/net-NoNodes-Betweenness.png)|
 
 ### Centrality
 
