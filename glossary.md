@@ -36,6 +36,20 @@ when removed results in:
 
 ![ABC](images/net-2components.png)
 
+### Betweenness
+
+*Betweenness* is a centrality measure. It goal is to identify nodes which "control" flow.
+
+So, a node $k$ stands in-*between* nodes $i$ and $j$ if is part of a path between the two.
+
+The formal definition is:
+
+$$
+C_{k}^{B} = \sum_{i,j \not = k} \frac {\sigma_{k}(i,j)} {\sigma(i,j)}
+$$
+
+
+
 ### Centrality
 
 *Centrality* is a measure of a node's "importance" in the network.
