@@ -24,18 +24,6 @@ gives this network:
 
 ![ABC](images/net-clique-abc.png)
 
-### Bridge
-
-A node in a network such that if removed increases the number of components in the network.
-
-A good, though not the only, example in the following network would be $\text{Node-Z}$:
-
-![ABC](images/net-bridge.png)
-
-when removed results in:
-
-![ABC](images/net-2components.png)
-
 ### Betweenness
 
 *Betweenness* is a centrality measure. It goal is to identify nodes which "control" flow.
@@ -48,11 +36,23 @@ $$
 C_{k}^{B} = \sum_{i,j \not = k} \frac {\sigma_{k}(i,j)} {\sigma(i,j)}
 $$
 
-where $\sigma$ is the number of shortest paths between 2 nodes, here $i$ and $j$.
+where $\sigma$ is the number of shortest paths between 2 nodes, here $i$ and $j$ and $\sigma_{k}$ is the number of shortest paths between $i$ and $j$ in which $k$ participates.
 
 ||Only `Node-A`| No Nodes|
 |:-:|:-:|:-:|
 ||![Node-A](images/net-NodeA-Betweenness.png)|![No-Nodes](images/net-NoNodes-Betweenness.png)|
+
+### Bridge
+
+A node in a network such that if removed increases the number of components in the network.
+
+A good, though not the only, example in the following network would be $\text{Node-Z}$:
+
+![ABC](images/net-bridge.png)
+
+when removed results in:
+
+![ABC](images/net-2components.png)
 
 ### Centrality
 
