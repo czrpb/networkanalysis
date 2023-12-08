@@ -202,7 +202,9 @@ $$
 
 ### Diameter
 
-The length of the largest distance.
+The length of the largest distance between 2 nodes $i$ and $j$. Also, may be defined as the maximum eccentricity for all dyads in a graph $g$.
+
+See: *Eccentricity*, *Radius*
 
 ### Digraph
 
@@ -210,13 +212,21 @@ See *Network*, specifically *Directed*.
 
 ### Distance
 
-Distance the count of edges in a path between 2 nodes.
+The number of edges of a path $d_{i,j}$ between 2 nodes $i$ and $j$.
 
 Aliases: *Length*
 
+See: *Eccentricity*, *Radius*
+
 ### Dyad
 
-Two nodes connect by an edge.
+Two nodes $i$ and $j$ connect by an edge $e_{i,j}$.
+
+### Eccentricity
+
+The maximum distance from a node $i$ to node $j$ where $j$ is all other nodes in the graph $g$.
+
+See: *Diameter*, *Radius*
 
 ### Edge
 

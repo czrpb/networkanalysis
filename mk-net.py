@@ -67,6 +67,7 @@ if centrality_funcs:
       g = nx.relabel_nodes(g, dict([(n, f"{n}\n{centralities[n]:.2f}") for n in g]))
 
 fig, ax = plt.subplots(figsize=dim[-1])
+title.append(str(nx.diameter(g)))
 ax.set_title("\n".join(title))
 nx.draw_networkx(g)
 plt.show()
