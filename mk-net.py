@@ -36,7 +36,7 @@ def mk_pairs(l):
                          and "_graph" in graph):
       title.append(graph)
       l.pop(0)
-      name, n = graph.split("=")
+      name, *n = graph.split("=")
       g = getattr(nx, name[2:])
       if n:
         g = g(int(n))
