@@ -32,6 +32,8 @@ https://visiblenetworklabs.com/guides/network-science-101/
 
 > .
 
+\pagebreak
+
 ---
 
 ### Networks in the Real World
@@ -43,6 +45,8 @@ Networks are everywhere, such as:
 - Biological, ie: Ecosystems, Neuronal, Metabolism
 
 https://www.youtube.com/watch?v=yAtsm5xkb5c
+
+\pagebreak
 
 ---
 
@@ -65,6 +69,8 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
   </tr>
 </table>
 
+\pagebreak
+
 ---
 
 #### Degree
@@ -84,6 +90,8 @@ Here are more networks, which will be used in later measures also as the above n
 |---|---|---|---|---|
 |Degree|![Basic001](../../images/net-ego-abcd-degrees.png)|![Basic002](../../images/net-ego-abcd-ab-degrees.png)|![Basic003](../../images/net-ego-abcd-ab-cd-degrees.png)|![Basic004](../../images/net-ego-abcd-complete-degrees.png)|
 |Degree Centrality|![Basic010](../../images/net-ego-abcd-degree_centrality.png)|![Basic020](../../images/net-ego-abcd-ab-degree_centrality.png)|![Basic030](../../images/net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](../../images/net-ego-abcd-complete-degree_centrality.png)|
+
+\pagebreak
 
 ---
 
@@ -112,6 +120,8 @@ $$
 
 https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
+\pagebreak
+
 ---
 
 #### Decay
@@ -122,9 +132,15 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 |---|---|---|---|---|
 |Decay Centrality|![Basic011](../../images/net-ego-abcd-decay_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-decay_centrality.png)|
 
+\pagebreak
+
 ---
 
 #### Betweenness
+
+.
+
+\pagebreak
 
 ---
 
@@ -132,13 +148,22 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 The basic synthetic, or wholistic, statistics on networks are measures meant to give information to the overall structure of the network.
 
+\pagebreak
+
 ---
 
 ### Density
+
+.
+
+\pagebreak
 
 ---
 
 ### Clusters
 
+.
 
+\pagebreak
 
+---
