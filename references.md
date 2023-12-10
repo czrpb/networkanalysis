@@ -9,10 +9,19 @@ https://www.youtube.com/watch?v=89mxOdwPfxA
 
 https://www.youtube.com/watch?v=NgUj8DEH5Tc
 
+### Betweenness
+
+https://en.wikipedia.org/wiki/Betweenness_centrality
+
+ "A set of measures of centrality based on betweenness"; Freeman; 1977; [pdf](1977-ASetOfMeasuresOfCentralityBasedOnBetweenness-Freeman.pdf)
+ 
 ### Closeness
 
 https://en.wikipedia.org/wiki/Closeness_centrality
 
+"The centrality index of a graph"; Sabidussi; 1966
+
+### Degree
 
 ## Academic
 

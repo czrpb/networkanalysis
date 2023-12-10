@@ -19,12 +19,13 @@ nx.decay_centrality = lambda g, decay=0.5: sum_of_weighted_paths_by_node(g, deca
 title = []
 dim = [[3,3]]
 centrality_funcs = []
+node_annotations = []
 
 def mk_pairs(l):
   #print(l)
   match l:
     case [(_, _), *_]:
-      pass
+      return
     case [centrality, *_] if (centrality.startswith("--")
                               and (centrality.endswith("_centrality")
                                    or centrality.endswith("pagerank"))):
@@ -35,7 +36,6 @@ def mk_pairs(l):
     case [graph, *_] if (graph.startswith("--")
                          and "_graph" in graph):
       title.append(graph)
-      l.pop(0)
       name, *n = graph.split("=")
       g = getattr(nx, name[2:])
       if n:
@@ -44,9 +44,14 @@ def mk_pairs(l):
       else:
         g = g()
       l.extend(list(g.edges))
+      l.pop(0)
       mk_pairs(l)
     case [d, *_] if d.startswith("--dim"):
       dim.append([float(_) for _ in d.split("=")[1].split(",")])
+      l.pop(0)
+      mk_pairs(l)
+    case [a, *_] if a.startswith("--node_annotations"):
+      node_annotations.extend(a.split("=")[1].split(","))
       l.pop(0)
       mk_pairs(l)
     case _:
@@ -64,7 +69,11 @@ g.add_edges_from(edges)
 if centrality_funcs:
     for c_f in centrality_funcs:
       centralities = c_f(g)
-      g = nx.relabel_nodes(g, dict([(n, f"{n}\n{centralities[n]:.2f}") for n in g]))
+      g = nx.relabel_nodes(
+        g,
+        dict([(n, f"{n}\n{centralities[n]:.2f}" if (node_annotations and n.split()[0] in node_annotations) else n)
+               for n in g])
+        )
 
 fig, ax = plt.subplots(figsize=dim[-1])
 title.append(str(nx.diameter(g)))

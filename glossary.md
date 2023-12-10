@@ -47,16 +47,16 @@ Common measures are:
 - Betweenness
 - Katz or Decay
 
-### Betweenness
+### Betweenness (Centrality)
 
-*Betweenness* is a centrality measure. It goal is to identify nodes which "control" flow.
+*Betweenness* identifies nodes which "control" flow.
 
 So, a node $k$ stands in-*between* nodes $i$ and $j$ if is part of a path between the two.
 
 The formal definition is:
 
 $$
-C_{k}^{B} = \sum_{i,j \not = k} \frac {\sigma_{k}(i,j)} {\sigma(i,j)}
+Centrality_{k}^{B} = \sum_{i,j \not = k} \frac {\sigma_{k}(i,j)} {\sigma(i,j)}
 $$
 
 where $\sigma$ is the number of shortest paths between 2 nodes, here $i$ and $j$ and $\sigma_{k}$ is the number of shortest paths between $i$ and $j$ in which $k$ participates.
@@ -67,10 +67,10 @@ where $\sigma$ is the number of shortest paths between 2 nodes, here $i$ and $j$
 
 ### Closeness (Centrality)
 
-Closeness centrality measures the distance (or length) from ego to all other nodes.
+*Closeness* identifies nodes "nearer" -- lower path length -- to all other nodes.
 
 $$
-Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
+Centrality^{C}_{i} = \frac {n-1} {\sum_{i,j} l(i, j)}
 $$
 
 ### Decay Centrality
@@ -78,7 +78,7 @@ $$
 A measure of a node's important where distance to another node attenuates. It is similar to closeness but the "weight" of edges is $0 \lt \delta \lt 1$.
 
 $$
-C_{i}^{\delta} = \frac {\delta(n-1)} {\sum \delta^{l_{i}}}
+Centrality_{i}^{\delta} = \frac {\delta(n-1)} {\sum \delta^{l_{i}}}
 $$
 
 ### Degree Centrality
