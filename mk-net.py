@@ -46,7 +46,7 @@ def mk_pairs(l):
       l.extend(list(g.edges))
       mk_pairs(l)
     case [d, *_] if d.startswith("--dim"):
-      dim.append([int(_) for _ in d.split("=")[1].split(",")])
+      dim.append([float(_) for _ in d.split("=")[1].split(",")])
       l.pop(0)
       mk_pairs(l)
     case _:

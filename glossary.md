@@ -152,6 +152,18 @@ A connected set of nodes in a network where there are $\geq 2$ such sets.
 
 ![ABC](images/net-2components.png)
 
+#### Weakly Connected Component
+
+In an undirected network, a set of nodes such that a path exists between all pairs of nodes.
+
+$$
+S_{i,j} \subset g = \forall_{i,j} \space \exists \space p_{i,j}
+$$
+
+#### Strongly Connected Component
+
+The same as weakly connected but for directed networks.
+
 ### Connected
 
 A network where there exists a path for all pairs of nodes.
@@ -279,6 +291,14 @@ $$
 ### Length
 
 Alias for: *Distance*
+
+### Multi-mode/Multimodal (Network)
+
+A network with multiple "types" of nodes.
+
+### Multiplex (Network)
+
+A network with multiple "types" of edges (links).
 
 ### Neighbors
 
