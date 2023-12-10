@@ -24,6 +24,29 @@ gives this network:
 
 ![ABC](images/net-clique-abc.png)
 
+### Bridge
+
+A node in a network such that if removed increases the number of components in the network.
+
+A good, though not the only, example in the following network would be $\text{Node-Z}$:
+
+![ABC](images/net-bridge.png)
+
+when removed results in:
+
+![ABC](images/net-2components.png)
+
+## Centrality
+
+*Centrality* is a measure of a node's "importance" in the network.
+
+Common measures are:
+
+- Degree
+- Closeness
+- Betweenness
+- Katz or Decay
+
 ### Betweenness
 
 *Betweenness* is a centrality measure. It goal is to identify nodes which "control" flow.
@@ -42,28 +65,33 @@ where $\sigma$ is the number of shortest paths between 2 nodes, here $i$ and $j$
 |:-:|:-:|:-:|
 ||![Node-A](images/net-NodeA-Betweenness.png)|![No-Nodes](images/net-NoNodes-Betweenness.png)|
 
-### Bridge
+### Closeness (Centrality)
 
-A node in a network such that if removed increases the number of components in the network.
+Closeness centrality measures the distance (or length) from ego to all other nodes.
 
-A good, though not the only, example in the following network would be $\text{Node-Z}$:
+$$
+Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
+$$
 
-![ABC](images/net-bridge.png)
+### Decay Centrality
 
-when removed results in:
+A measure of a node's important where distance to another node attenuates. It is similar to closeness but the "weight" of edges is $0 \lt \delta \lt 1$.
 
-![ABC](images/net-2components.png)
+$$
+C_{i}^{\delta} = \frac {\delta(n-1)} {\sum \delta^{l_{i}}}
+$$
 
-### Centrality
+### Degree Centrality
 
-*Centrality* is a measure of a node's "importance" in the network.
+Degree centrality measures the node's importance on the number of edges it has.
 
-Common measures are:
+$$Cent^{D}_{i} = \frac {d(i)} {n-1} $$
 
-- Degree
-- Closeness
-- Betweenness
-- Katz or Decay
+##### Lessons
+
+[101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
+
+### Examples
 
 ##### Kite Network
 
@@ -128,17 +156,17 @@ A maximally complete subnetwork.
 
 See *Triangle*
 
-### Closeness (Centrality)
+### Closed Triad
 
-Closeness centrality measures the distance (or length) from ego to all other nodes.
-
-$$
-Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
-$$
+A 3 node cycle.
 
 ##### Lessons
 
 [101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#closeness)
+
+### Clustering Coefficient
+
+The ratio of closed triads to all triads.
 
 ### Complete
 
@@ -176,27 +204,9 @@ A path that starts and ends at the same node.
 
 See *Path*, *Walk*, *Geodesic*.
 
-### Decay Centrality
-
-A measure of a node's important where distance to another node attenuates. It is similar to closeness but the "weight" of edges is $0 \lt \delta \lt 1$.
-
-$$
-C_{i}^{\delta} = \frac {\delta(n-1)} {\sum \delta^{l_{i}}}
-$$
-
 ### Degree
 
 The number of edges connected to a node.
-
-##### Lessons
-
-[101](https://github.com/czrpb/networkanalysis/blob/main/learning/na101-basics/learn.md#degree)
-
-### Degree Centrality
-
-Degree centrality measures the node's importance on the number of edges it has.
-
-$$Cent^{D}_{i} = \frac {d(i)} {n-1} $$
 
 ##### Lessons
 
@@ -351,9 +361,17 @@ A network where there is 1 node connected to all other nodes and no other dyads 
 
 Alias for: *Edge*.
 
+### Transitivity
+
+The ratio of actual triangles in a network against the total possible.
+
 ### Tree
 
 A network where there are no cycles.
+
+### Triadic Closure
+
+One of the 16 types (motifs) of connection patterns among 3 nodes.
 
 ### Triangle
 
