@@ -9,12 +9,14 @@ https://www.youtube.com/watch?v=89mxOdwPfxA
 
 https://www.youtube.com/watch?v=NgUj8DEH5Tc
 
+"Centrality Measures in Networks"; Block, Jackson, Tebaldi; 2021; [pdf](2021-CentralityMeasuresInNetworks-BlockJacksonTebaldi.pdf)
+
 ### Betweenness
 
 https://en.wikipedia.org/wiki/Betweenness_centrality
 
  "A set of measures of centrality based on betweenness"; Freeman; 1977; [pdf](1977-ASetOfMeasuresOfCentralityBasedOnBetweenness-Freeman.pdf)
- 
+
 ### Closeness
 
 https://en.wikipedia.org/wiki/Closeness_centrality
