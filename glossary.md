@@ -47,6 +47,20 @@ Common measures are:
 - Betweenness
 - Katz or Decay
 
+#### Example
+
+<table>
+  <tr>
+    <td colspan="4" align="center"><img src="images/net-centralities.png" alt="Main Centralities"/></td>
+  </tr>
+  <tr>
+    <th>Centralities</th>
+    <td><b>Degree:</b> Node 1 - 0.44</td>
+    <td><b>Closeness:</b> Node 2 - 0.46</td>
+    <td><b>Betweenness:</b> Node 3 - 0.62</td>
+  </tr>
+</table>
+
 ### Betweenness (Centrality)
 
 *Betweenness* identifies nodes which "control" flow.
@@ -73,6 +87,8 @@ $$
 Centrality^{C}_{i} = \frac {n-1} {\sum_{i,j} l(i, j)}
 $$
 
+Ref: https://en.wikipedia.org/wiki/Closeness_centrality
+
 ### Decay Centrality
 
 A measure of a node's important where distance to another node attenuates. It is similar to closeness but the "weight" of edges is $0 \lt \delta \lt 1$.
@@ -85,7 +101,7 @@ $$
 
 Degree centrality measures the node's importance on the number of edges it has.
 
-$$Cent^{D}_{i} = \frac {d(i)} {n-1} $$
+$$Centrality^{D}_{i} = \frac {d(i)} {n-1} $$
 
 ##### Lessons
 
