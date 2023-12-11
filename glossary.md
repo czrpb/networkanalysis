@@ -51,7 +51,7 @@ Common measures are:
 
 <table>
   <tr>
-    <td colspan="3">Centralities</td>
+    <th colspan="3">Centralities</th>
   </tr>
   <tr>
     <td colspan="3" align="center"><img src="images/net-centralities.png" alt="Main Centralities"/></td>
