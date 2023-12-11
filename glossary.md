@@ -51,10 +51,12 @@ Common measures are:
 
 <table>
   <tr>
-    <td colspan="4" align="center"><img src="images/net-centralities.png" alt="Main Centralities"/></td>
+    <td colspan="3">Centralities</td>
   </tr>
   <tr>
-    <th>Centralities</th>
+    <td colspan="3" align="center"><img src="images/net-centralities.png" alt="Main Centralities"/></td>
+  </tr>
+  <tr>
     <td><b>Degree:</b> Node 1 - 0.44</td>
     <td><b>Closeness:</b> Node 2 - 0.46</td>
     <td><b>Betweenness:</b> Node 3 - 0.62</td>
