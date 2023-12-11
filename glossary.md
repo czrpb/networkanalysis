@@ -45,7 +45,7 @@ Common measures are:
 - Degree
 - Closeness
 - Betweenness
-- Katz or Decay
+- Decay, Katz, Eigenvector, ...
 
 #### Example
 
@@ -59,7 +59,7 @@ Common measures are:
   <tr>
     <td><b>Degree:</b> Node 1 - 0.44</td>
     <td><b>Closeness:</b> Node 2 - 0.46</td>
-    <td><b>Betweenness:</b> Node 3 - 0.62</td>
+    <td><b>Betweenness:</b> Node 3 - 0.65</td>
   </tr>
 </table>
 
