@@ -270,20 +270,20 @@ https://en.wikipedia.org/wiki/Small-world_network
     <td class="small-size">"</td>
     <td class="small-size">"</td>
     <td class="small-size">0.29<br/>0.47</td>
-    <td class="small-size">0.29<br/>0.44</td>
+    <td class="small-size">"</td>
     <td class="small-size">0.36<br/>0.58</td>
-    <td class="small-size">0.29<br/>0.44</td>
+    <td class="small-size">"</td>
     <td class="small-size">0.36<br/>0.58</td>
-    <td class="small-size">0</td>
-    <td class="small-size">2</td>
-    <td class="small-size">5</td>
-    <td class="small-size">9</td>
-    <td class="small-size">13</td>
-    <td class="small-size">0</td>
-    <td class="small-size">2</td>
-    <td class="small-size">5</td>
-    <td class="small-size">9</td>
-    <td class="small-size">13</td>
+    <td class="small-size">0.29<br/>0.47</td>
+    <td class="small-size">0.29<br/>0.48</td>
+    <td class="small-size">0.36<br/>0.58</td>
+    <td class="small-size">0.36<br/>0.56</td>
+    <td class="small-size">0.36<br/>0.58</td>
+    <td class="small-size">0.29<br/>0.47</td>
+    <td class="small-size">0.36<br/>0.54</td>
+    <td class="small-size">0.36<br/>0.58</td>
+    <td class="small-size">0.36<br/>0.56</td>
+    <td class="small-size">0.43<br/>0.61</td>
   </tr>
   </tr>
 </table>
