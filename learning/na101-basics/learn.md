@@ -46,7 +46,7 @@ Networks
 
 ### Let's Talk about this Network
 
-![1st Network](../../images/net-centralities-blank.png)
+![1st Network](images/net-centralities-blank.png)
 
 |Most Important?|1|2|3|
 |--:|---|---|---|
@@ -55,7 +55,7 @@ Networks
 
 ### Let's Talk about this Network
 
-![1st Network with Centralities](../../images/net-centralities.png)
+![1st Network with Centralities](images/net-centralities.png)
 
 |"Centrality"|1|2|3|
 |--:|---|---|---|
@@ -69,11 +69,11 @@ Networks
 
 <table>
   <tr>
-    <td><img alt="10x13 Random" src="../../images/net-10x13-random.png"/></td>
+    <td><img alt="10x13 Random" src="images/net-10x13-random.png"/></td>
     <td>A <i>network</i> is a set of <i>nodes</i> and <i>edges</i> that connect them.
     <br/><br/>
     <i>Network Analysis</i> is the study of the *structure* of the network.</td>
-    <td><img alt="10x13 Random with Centralities" src="../../images/net-10x13-random-withcentralities.png" height="248"/></td>
+    <td><img alt="10x13 Random with Centralities" src="images/net-10x13-random-withcentralities.png" height="248"/></td>
   </tr>
 </table>
 
@@ -86,8 +86,8 @@ Networks
     </td>
   </tr>
   <tr>
-    <td><img src="../../images/stanford-cs102-network-basicdef.png" width="490" /></td>
-    <td><img src="../../images/stanfor-cs224w-componentsofanetwork.png" width="512" /></td>
+    <td><img src="images/stanford-cs102-network-basicdef.png" width="490" /></td>
+    <td><img src="images/stanfor-cs224w-componentsofanetwork.png" width="512" /></td>
   </tr>
 </table>
 
@@ -104,9 +104,9 @@ Networks
     <td><u>Social</u><br/>Florentine families</td>
   </tr>
   <tr>
-    <td><img src="../../images/net-opte-2010-internetnetwork.png" width="384" alt="The Internet in 2010 from opte.org"/></td>
-    <td><img src="../../images/net-example-biologicalnetwork.png" width="384" alt="Example of Biological Network"/></td>
-    <td><img src="../../images/net-example-socialnetwork.png" width="384" alt="Florentine family connections"/></td>
+    <td><img src="images/net-opte-2010-internetnetwork.png" width="384" alt="The Internet in 2010 from opte.org"/></td>
+    <td><img src="images/net-example-biologicalnetwork.png" width="384" alt="Example of Biological Network"/></td>
+    <td><img src="images/net-example-socialnetwork.png" width="384" alt="Florentine family connections"/></td>
   </tr>
 </table>
 
@@ -120,7 +120,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 <table>
   <tr>
-    <td><img src="../../images/network-centralities.png" alt="Common Centrality Measures" height="512"/></td>
+    <td><img src="images/network-centralities.png" alt="Common Centrality Measures" height="512"/></td>
     <td>
     <p>The basic analytic statistics on networks are measures that have their focus on nodes and their "importance" in the network.</p>
     <br>
@@ -140,7 +140,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 |The *degree* of a node is the number of connected edges|The most basic centrality statistics is called *degree centrality*|
 |:-:|:-:|
 |$d(i) = \text{number of edges connected to node} \ i$|$C^{D}_{i} = \frac {d(i)} {n-1}$|
-|<img src="../../images/net-basic-001-degrees.png" />|<img src="../../images/net-basic-001-degree_centrality.png" />|
+|<img src="images/net-basic-001-degrees.png" />|<img src="images/net-basic-001-degree_centrality.png" />|
 
 A related wholistic measure is *density*.
 
@@ -152,8 +152,8 @@ Here are more networks, which will be used in later measures also as the above n
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Degree|<img src="../../images/net-ego-abcd-degrees.png" alt="Basic001" width="196"/>|<img src="../../images/net-ego-abcd-ab-degrees.png" alt="Basic002" width="196"/>|<img alt="Basic003" src="../../images/net-ego-abcd-ab-cd-degrees.png" width="196"/>|<img alt="Basic004" src="../../images/net-ego-abcd-complete-degrees.png" width="196"/>|
-|Degree Centrality|<img alt="Basic010" src="../../images/net-ego-abcd-degree_centrality.png" width="196" />|<img alt="Basic020" src="../../images/net-ego-abcd-ab-degree_centrality.png"  width="196"/>|<img alt="Basic030" src="../../images/net-ego-abcd-ab-cd-degree_centrality.png" width="196"/>|<img alt="Basic040" src="../../images/net-ego-abcd-complete-degree_centrality.png" width="196"/>|
+|Degree|<img src="images/net-ego-abcd-degrees.png" alt="Basic001" width="196"/>|<img src="images/net-ego-abcd-ab-degrees.png" alt="Basic002" width="196"/>|<img alt="Basic003" src="images/net-ego-abcd-ab-cd-degrees.png" width="196"/>|<img alt="Basic004" src="images/net-ego-abcd-complete-degrees.png" width="196"/>|
+|Degree Centrality|<img alt="Basic010" src="images/net-ego-abcd-degree_centrality.png" width="196" />|<img alt="Basic020" src="images/net-ego-abcd-ab-degree_centrality.png"  width="196"/>|<img alt="Basic030" src="images/net-ego-abcd-ab-cd-degree_centrality.png" width="196"/>|<img alt="Basic040" src="images/net-ego-abcd-complete-degree_centrality.png" width="196"/>|
 
 ---
 
@@ -165,7 +165,7 @@ If *ego* is 1 step away from all other nodes (ie: the center in a star network) 
 
 |$n-1$|$\sum l(i, j)$|$Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}$|
 |:-:|:-:|:-:|
-|3|3|<img src="../../images/net-basic-001-closeness_centrality.png" />|
+|3|3|<img src="images/net-basic-001-closeness_centrality.png" />|
 
 ---
 
@@ -173,7 +173,7 @@ If *ego* is 1 step away from all other nodes (ie: the center in a star network) 
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Closeness Centrality|<img alt="Basic011" src="../../images/net-ego-abcd-closeness_centrality.png" width="196"/>|<img alt="Basic021" src="../../images/net-ego-abcd-ab-closeness_centrality.png" width="196" />|<img alt="Basic031" src="../../images/net-ego-abcd-ab-cd-closeness_centrality.png" width="196" />|<img alt="Basic041" src="../../images/net-ego-abcd-complete-closeness_centrality.png" width="196" />|
+|Closeness Centrality|<img alt="Basic011" src="images/net-ego-abcd-closeness_centrality.png" width="196"/>|<img alt="Basic021" src="images/net-ego-abcd-ab-closeness_centrality.png" width="196" />|<img alt="Basic031" src="images/net-ego-abcd-ab-cd-closeness_centrality.png" width="196" />|<img alt="Basic041" src="images/net-ego-abcd-complete-closeness_centrality.png" width="196" />|
 
 https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
@@ -187,7 +187,7 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Betweenness Centrality|<img alt="Basic101" src="../../images/net-ego-abcd-betweenness_centrality.png" width="196"/>|<img alt="Basic201" src="../../images/net-ego-abcd-ab-betweenness_centrality.png" width="196" />|<img alt="Basic031" src="../../images/net-ego-abcd-ab-cd-betweenness_centrality.png" width="196" />|<img alt="Basic041" src="../../images/net-ego-abcd-complete-betweenness_centrality.png" width="196" />|
+|Betweenness Centrality|<img alt="Basic101" src="images/net-ego-abcd-betweenness_centrality.png" width="196"/>|<img alt="Basic201" src="images/net-ego-abcd-ab-betweenness_centrality.png" width="196" />|<img alt="Basic031" src="images/net-ego-abcd-ab-cd-betweenness_centrality.png" width="196" />|<img alt="Basic041" src="images/net-ego-abcd-complete-betweenness_centrality.png" width="196" />|
 
 ---
 
@@ -236,6 +236,6 @@ Quentin Crain
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Decay Centrality|![Basic011](../../images/net-ego-abcd-decay_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-decay_centrality.png)|
+|Decay Centrality|![Basic011](images/net-ego-abcd-decay_centrality.png)|![Basic021](images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](images/net-ego-abcd-complete-decay_centrality.png)|
 
 ---
