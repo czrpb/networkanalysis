@@ -4,7 +4,10 @@ size: 16:9
 theme: uncover
 class: invert
 math: katex
-
+style: |
+  section {
+    font-size: 20pt;
+  }
 ---
 
 # Network Analysis 101: Basics
@@ -19,18 +22,25 @@ math: katex
   <tr>
     <td><img alt="10x13 Random" src="../../images/net-10x13-random.png"/></td>
     <td>A <i>network</i> is a set of <i>nodes</i> and <i>edges</i> that connect them.
-    <br/>
-    <i>Network Analysis</i> is the study of the *structure* of the connected nodes.
+    <br/><br/>
+    <i>Network Analysis</i> is the study of the *structure* of the network.s
     </td>
   </tr>
 </table>
 
-
-Reading:
-  * https://en.wikipedia.org/wiki/Network_science
-  * [The Structure and Function of Complex Networks](ref/2003-TheStructureAndFunctionOfComplexNetworks-Newman.pdf)
-
-\pagebreak
+<table>
+  <tr>
+    <td colspan="2">
+      https://en.wikipedia.org/wiki/Network_science
+      <br/>
+      <a href="ref/2003-TheStructureAndFunctionOfComplexNetworks-Newman.pdf">The Structure and Function of Complex Networks</a>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../../images/stanford-cs102-network-basicdef.png" width="512" /></td>
+    <td><img src="../../images/stanfor-cs224w-componentsofanetwork.png" width="512" /></td>
+  </tr>
+</table>
 
 ---
 
@@ -43,8 +53,6 @@ Networks are everywhere, such as:
 - Biological, ie: Ecosystems, Neuronal, Metabolism
 
 https://www.youtube.com/watch?v=yAtsm5xkb5c
-
-\pagebreak
 
 ---
 
@@ -67,8 +75,6 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
   </tr>
 </table>
 
-\pagebreak
-
 ---
 
 #### Degree
@@ -88,8 +94,6 @@ Here are more networks, which will be used in later measures also as the above n
 |---|---|---|---|---|
 |Degree|![Basic001](../../images/net-ego-abcd-degrees.png)|![Basic002](../../images/net-ego-abcd-ab-degrees.png)|![Basic003](../../images/net-ego-abcd-ab-cd-degrees.png)|![Basic004](../../images/net-ego-abcd-complete-degrees.png)|
 |Degree Centrality|![Basic010](../../images/net-ego-abcd-degree_centrality.png)|![Basic020](../../images/net-ego-abcd-ab-degree_centrality.png)|![Basic030](../../images/net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](../../images/net-ego-abcd-complete-degree_centrality.png)|
-
-\pagebreak
 
 ---
 
@@ -118,8 +122,6 @@ $$
 
 https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
-\pagebreak
-
 ---
 
 #### Decay
@@ -130,15 +132,11 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 |---|---|---|---|---|
 |Decay Centrality|![Basic011](../../images/net-ego-abcd-decay_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-decay_centrality.png)|
 
-\pagebreak
-
 ---
 
 #### Betweenness
 
 .
-
-\pagebreak
 
 ---
 
@@ -146,22 +144,16 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 The basic synthetic, or wholistic, statistics on networks are measures meant to give information to the overall structure of the network.
 
-\pagebreak
-
 ---
 
 ### Density
 
 .
 
-\pagebreak
-
 ---
 
 ### Clusters
 
 .
-
-\pagebreak
 
 ---
