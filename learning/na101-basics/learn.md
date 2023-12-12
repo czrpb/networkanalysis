@@ -211,9 +211,13 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
 
 ## Small World Networks
 
+<p>Real world networks exhibit what is now called "small-world" characteristics. Unlike random networks, small-worlds radically reduce average dyad distances due to scale-free degree distributions and distant connections.</p>
+
+<p>https://en.wikipedia.org/wiki/Small-world_network</p>
+
 <img src="images/net-smallworld.png" />
 
-https://en.wikipedia.org/wiki/Small-world_network
+["Collective dynamics of 'small-world' networks"](https://www.nature.com/articles/30918)
 
 ---
 
@@ -264,9 +268,9 @@ https://en.wikipedia.org/wiki/Small-world_network
   </tr>
   <tr>
   <tr>
+    <td class="small-size">"</td>
+    <td class="small-size">"</td>
     <td class="small-size">0.29<br/>0.44</td>
-    <td class="small-size">"</td>
-    <td class="small-size">"</td>
     <td class="small-size">"</td>
     <td class="small-size">"</td>
     <td class="small-size">0.29<br/>0.47</td>
