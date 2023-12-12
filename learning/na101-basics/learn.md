@@ -141,7 +141,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 |$d(i) = \text{number of edges connected to node} \ i$|$C^{D}_{i} = \frac {d(i)} {n-1}$|
 |<img src="../../images/net-basic-001-degrees.png" />|<img src="../../images/net-basic-001-degree_centrality.png" />|
 
-A related wholistic measure is [density]().
+A related wholistic measure is *density*.
 
 ---
 
@@ -156,22 +156,19 @@ Here are more networks, which will be used in later measures also as the above n
 
 ---
 
-#### Closeness
+### Closeness
 
-[Closeness](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#closeness-centrality) is a measure that means to capture a notion of proximity of a node to all other nodes.
+*Closeness* is a measure that means to capture a notion of proximity of a node to all other nodes.
 
-So, if *ego* is 1 step away from all other nodes (ie: the center in a star network) the sum would be $n - 1$. Since generally we want measures $0 \leq c \leq 1$, let us consider this to be the maximum of $1$ and thus closeness would be defined as:
+If *ego* is 1 step away from all other nodes (ie: the center in a star network) the sum would be $n - 1$. Since generally we want measures $0 \leq c \leq 1$, let us consider this to be the maximum of $1$ and thus closeness would be defined as:
 
-$$
-Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}
-$$
-
-
-|$n-1$|$\sum l(i, j)$||
+|$n-1$|$\sum l(i, j)$|$Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}$|
 |:-:|:-:|:-:|
 |3|3|<img src="../../images/net-basic-001-closeness_centrality.png" />|
 
-##### More Examples
+---
+
+#### Closeness Centrality: More Examples
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
