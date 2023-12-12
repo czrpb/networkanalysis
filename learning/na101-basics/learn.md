@@ -20,12 +20,13 @@ Quentin Crain
 
 Networks
 
-- by way of Example and Discussion
-- in the Real World
-- defined
-- deconstructed
+- Overview (Slides 1-7)
+  - by way of Example and Discussion
+  - in the Real World
+  - defined
+- Analytic (Slides 8-14)
   - Centrality
-- synthesized
+- Synthetic (Slides 15-)
   - Density
   - 
 
