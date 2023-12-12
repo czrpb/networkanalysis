@@ -12,7 +12,44 @@ style: |
 
 # Network Analysis 101: Basics
 
-## Overview
+Quentin Crain
+
+---
+
+## Agenda
+
+Networks
+
+- by way of Example and Discussion
+- in the Real World
+- Defined
+- Deconstructed
+  - centrality
+- Synthesized
+  - density
+  - 
+
+
+---
+
+### Let's Talk about this Network
+
+![1st Network](../../images/net-centralities-blank.png)
+
+|Importance|1|2|3|
+|--:|---|---|---|
+
+---
+
+### Let's Talk about this Network
+
+![1st Network with Centralities](../../images/net-centralities.png)
+
+|Importance|1|2|3|
+|--:|---|---|---|
+|Degree|**0.44**|0.19|0.25|
+|Closeness|0.42|**0.46**|0.44|
+|Betweenness|0.62|0.59|**0.65**|
 
 ---
 
@@ -46,6 +83,10 @@ style: |
 
 ### Networks in the Real World
 
+<table>
+  <tr>
+  </tr>
+</table>
 Networks are everywhere, such as:
 
 - Information, ie: the Web
