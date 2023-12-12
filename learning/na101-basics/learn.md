@@ -29,7 +29,7 @@ Networks
 - Synthetic (Slides 15-)
   - Density
   - 
-
+- Small-worlds (Slides )
 
 ---
 
@@ -209,6 +209,41 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
 
 ---
 
+## Small World Networks
+
+<img src="./images/net-smallworld.png" />
+
+https://en.wikipedia.org/wiki/Small-world_network
+
+---
+
+### Distant Connections
+
+<table>
+  <tr>
+    <td>Small-world</td>
+    <td>Add: 13 -> 5</td>
+  </tr>
+  <tr>
+    <td><img src="./images/net-smallworld-circular.png" width="384" /></td>
+    <td><img src="./images/net-smallworld-circular-13_5.png" width="384"/></td>
+  </tr>
+  <tr>
+    <td>Add: 3 -> 9</td>
+    <td>Add: 13 -> 2</td>
+  </tr>
+  <tr>
+    <td><img src="./images/net-smallworld-circular-13_5-3_9.png" width="384" /></td>
+    <td><img src="./images/net-smallworld-circular-13_5-3_9-13_2.png" width="384" /></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+---
+
 ### References
 
 - Stanford CS102 class slide
@@ -221,6 +256,8 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
   - https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0233276.g005
 - Biological network image
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833320/
+- Small-world image
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3604768/
 
 ---
 

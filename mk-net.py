@@ -40,7 +40,10 @@ def mk_pairs(l):
       g = getattr(nx, name[2:])
       if n:
         n = n[0].split(",")
-        g = g(*map(int, n))
+        if "circulant" in name:
+          g = g(int(n[0]), [1, 2])
+        else:
+          g = g(*map(int, n))
       else:
         g = g()
       l.extend(list(g.edges))
