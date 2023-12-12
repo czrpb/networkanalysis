@@ -35,7 +35,7 @@ Networks
 ### Objectives
 
 - Selfish: I love network science!
-  - Practicing the Feyman method
+  - Practicing the Feynman method
 - Educative: Want to spread the knowledge!
 - Preferential: What sorts of presentations do people want?
   - "Academic" vs "Project"
@@ -47,7 +47,7 @@ Networks
 
 ![1st Network](../../images/net-centralities-blank.png)
 
-|Importance|1|2|3|
+|Most Important?|1|2|3|
 |--:|---|---|---|
 
 ---
@@ -56,7 +56,7 @@ Networks
 
 ![1st Network with Centralities](../../images/net-centralities.png)
 
-|Importance|1|2|3|
+|"Centrality"|1|2|3|
 |--:|---|---|---|
 |Degree|**0.44**|0.19|0.25|
 |Closeness|0.42|**0.46**|0.44|
@@ -71,8 +71,8 @@ Networks
     <td><img alt="10x13 Random" src="../../images/net-10x13-random.png"/></td>
     <td>A <i>network</i> is a set of <i>nodes</i> and <i>edges</i> that connect them.
     <br/><br/>
-    <i>Network Analysis</i> is the study of the *structure* of the network.
-    </td>
+    <i>Network Analysis</i> is the study of the *structure* of the network.</td>
+    <td><img alt="10x13 Random with Centralities" src="../../images/net-10x13-random-withcentralities.png" height="256"/></td>
   </tr>
 </table>
 

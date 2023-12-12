@@ -65,13 +65,16 @@ mk_pairs(edges)
 
 g = nx.Graph()
 g.add_edges_from(edges)
+g = nx.relabel_nodes(g, dict([(n, str(n)) for n in g]))
 
 if centrality_funcs:
     for c_f in centrality_funcs:
       centralities = c_f(g)
       g = nx.relabel_nodes(
         g,
-        dict([(n, f"{n}\n{centralities[n]:.2f}" if (node_annotations and n.split()[0] in node_annotations) else n)
+        dict([(n, f"{n}\n{centralities[n]:.2f}"
+                  if (not node_annotations or n.split()[0] in node_annotations)
+                  else n)
                for n in g])
         )
 
