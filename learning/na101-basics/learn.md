@@ -190,16 +190,6 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 ---
 
-#### Decay
-
-##### More Examples
-
-||Star|Clique|Bridge|Complete|
-|---|---|---|---|---|
-|Decay Centrality|![Basic011](../../images/net-ego-abcd-decay_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-decay_centrality.png)|
-
----
-
 ## Basic Network Analysis: Synthetic
 
 The basic synthetic, or wholistic, statistics on networks are measures meant to give information to the overall structure of the network.
@@ -230,5 +220,21 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
   - https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0233276.g005
 - Biological network image
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833320/
+
+---
+
+# Network Analysis 102: More Basics
+
+Quentin Crain
+
+---
+
+#### Decay
+
+##### More Examples
+
+||Star|Clique|Bridge|Complete|
+|---|---|---|---|---|
+|Decay Centrality|![Basic011](../../images/net-ego-abcd-decay_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-decay_centrality.png)|
 
 ---
