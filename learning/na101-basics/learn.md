@@ -211,7 +211,7 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
 
 ## Small World Networks
 
-<img src="./images/net-smallworld.png" />
+<img src="images/net-smallworld.png" />
 
 https://en.wikipedia.org/wiki/Small-world_network
 
@@ -219,26 +219,72 @@ https://en.wikipedia.org/wiki/Small-world_network
 
 ### Distant Connections
 
+<style scoped>
+  .small-size {
+    font-size:8pt;
+  }
+</style>
+
 <table>
   <tr>
-    <td>Small-world</td>
-    <td>Add: 13 -> 5</td>
+    <th colspan="5">Small-world</th>
+    <th colspan="5">Add: 13 -> 5</th>
+    <th colspan="5">Add: 3 -> 9</th>
+    <th colspan="5">Add: 13 -> 2</th>
   </tr>
   <tr>
-    <td><img src="./images/net-smallworld-circular.png" width="384" /></td>
-    <td><img src="./images/net-smallworld-circular-13_5.png" width="384"/></td>
+    <td class="small-size">0</td>
+    <td class="small-size">2</td>
+    <td class="small-size">5</td>
+    <td class="small-size">9</td>
+    <td class="small-size">13</td>
+    <td class="small-size">0</td>
+    <td class="small-size">2</td>
+    <td class="small-size">5</td>
+    <td class="small-size">9</td>
+    <td class="small-size">13</td>
+    <td class="small-size">0</td>
+    <td class="small-size">2</td>
+    <td class="small-size">5</td>
+    <td class="small-size">9</td>
+    <td class="small-size">13</td>
+    <td class="small-size">0</td>
+    <td class="small-size">2</td>
+    <td class="small-size">5</td>
+    <td class="small-size">9</td>
+    <td class="small-size">13</td>
   </tr>
   <tr>
-    <td>Add: 3 -> 9</td>
-    <td>Add: 13 -> 2</td>
-  </tr>
-  <tr>
-    <td><img src="./images/net-smallworld-circular-13_5-3_9.png" width="384" /></td>
-    <td><img src="./images/net-smallworld-circular-13_5-3_9-13_2.png" width="384" /></td>
-  </tr>
-  <tr>
+    <td colspan="5"><img src="./images/net-smallworld-circular.png" width="250" /></td>
+    <td colspan="5"><img src="./images/net-smallworld-circular-13_5.png" width="250"/></td>
+    <td colspan="5"><img src="./images/net-smallworld-circular-13_5-3_9.png" width="250" /></td>
+    <td colspan="5"><img src="./images/net-smallworld-circular-13_5-3_9-13_2.png" width="250" /></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+  <tr>
+    <td class="small-size">0.29<br/>0.44</td>
+    <td class="small-size">"</td>
+    <td>"</td>
+    <td>"</td>
+    <td>"</td>
+    <td>0.29<br/>0.47</td>
+    <td>0.29<br/>0.44</td>
+    <td>0.36<br/>0.58</td>
+    <td>0.29<br/>0.44</td>
+    <td>0.36<br/>0.58</td>
+    <td>0</td>
+    <td>2</td>
+    <td>5</td>
+    <td>9</td>
+    <td>13</td>
+    <td>0</td>
+    <td>2</td>
+    <td>5</td>
+    <td>9</td>
+    <td>13</td>
+  </tr>
   </tr>
 </table>
 
