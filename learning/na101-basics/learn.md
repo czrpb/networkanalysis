@@ -156,7 +156,7 @@ Here are more networks, which will be used in later measures also as the above n
 
 ---
 
-### Closeness
+### Closeness Centrality
 
 *Closeness* is a measure that means to capture a notion of proximity of a node to all other nodes.
 
