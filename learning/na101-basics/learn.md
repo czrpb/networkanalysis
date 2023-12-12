@@ -136,7 +136,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 ### Degree Centrality
 
-|The degree of a node is the number of connected edges|The most basic centrality statistics is called degree centrality.|
+|The *degree* of a node is the number of connected edges|The most basic centrality statistics is called *degree centrality*|
 |:-:|:-:|
 |$d(i) = \text{number of edges connected to node} \ i$|$C^{D}_{i} = \frac {d(i)} {n-1}$|
 |<img src="../../images/net-basic-001-degrees.png" />|<img src="../../images/net-basic-001-degree_centrality.png" />|
