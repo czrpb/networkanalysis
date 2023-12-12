@@ -32,6 +32,17 @@ Networks
 
 ---
 
+### Objectives
+
+- Selfish: I love network science!
+  - Practicing the Feyman method
+- Educative: Want to spread the knowledge!
+- Preferential: What sorts of presentations do people want?
+  - "Academic" vs "Project"
+  - "Informational" vs "Interactive"
+
+---
+
 ### Let's Talk about this Network
 
 ![1st Network](../../images/net-centralities-blank.png)
@@ -87,14 +98,14 @@ Networks
   <tr><td colspan="3">Networks Everywhere</td>
   </tr>
   <tr>
-    <td>Technological</td>
-    <td>Biological</td>
-    <td>Social</td>
+    <td><u>Technological</u><br/>The Internet</td>
+    <td><u>Biological</u><br/>Organisms/Metabolic</td>
+    <td><u>Social</u><br/>Florentine families</td>
   </tr>
   <tr>
-    <td>Technological</td>
+    <td><img src="../../images/net-opte-2010-internetnetwork.png" width="384" alt="The Internet in 2010 from opte.org"/></td>
     <td><img src="../../images/net-example-biologicalnetwork.png" width="384" alt="Example of Biological Network"/></td>
-    <td>Social</td>
+    <td><img src="../../images/net-example-socialnetwork.png" width="384" alt="Florentine family connections"/></td>
   </tr>
 </table>
 
@@ -210,7 +221,10 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
   - https://web.stanford.edu/class/cs102/lectureslides/NetworksSlides.pdf
 - Stanford CS224W class slides
   - https://web.stanford.edu/class/cs102/readings/CS224W-intro.pdf
-- 
+- "Map" of the Internet from opte.org
+  - http://content.opte.org/content/opte/maps/static/opte-2010.png
+- Florentine families
+  - https://journals.plos.org/plosone/article/figure?id=10.1371/journal.pone.0233276.g005
 - Biological network image
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833320/
 
