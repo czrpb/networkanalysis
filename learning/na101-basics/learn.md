@@ -22,11 +22,11 @@ Networks
 
 - by way of Example and Discussion
 - in the Real World
-- Defined
-- Deconstructed
-  - centrality
-- Synthesized
-  - density
+- defined
+- deconstructed
+  - Centrality
+- synthesized
+  - Density
   - 
 
 
@@ -60,7 +60,7 @@ Networks
     <td><img alt="10x13 Random" src="../../images/net-10x13-random.png"/></td>
     <td>A <i>network</i> is a set of <i>nodes</i> and <i>edges</i> that connect them.
     <br/><br/>
-    <i>Network Analysis</i> is the study of the *structure* of the network.s
+    <i>Network Analysis</i> is the study of the *structure* of the network.
     </td>
   </tr>
 </table>
@@ -84,14 +84,19 @@ Networks
 ### Networks in the Real World
 
 <table>
+  <tr><td colspan="3">Networks Everywhere</td>
+  </tr>
   <tr>
+    <td>Technological</td>
+    <td>Biological</td>
+    <td>Social</td>
+  </tr>
+  <tr>
+    <td>Technological</td>
+    <td><img src="../../images/net-example-biologicalnetwork.png" width="384" alt="Example of Biological Network"/></td>
+    <td>Social</td>
   </tr>
 </table>
-Networks are everywhere, such as:
-
-- Information, ie: the Web
-- Social, ie: Twitter, Facebook
-- Biological, ie: Ecosystems, Neuronal, Metabolism
 
 https://www.youtube.com/watch?v=yAtsm5xkb5c
 
@@ -196,5 +201,17 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
 ### Clusters
 
 .
+
+---
+
+### References
+
+- Stanford CS102 class slide
+  - https://web.stanford.edu/class/cs102/lectureslides/NetworksSlides.pdf
+- Stanford CS224W class slides
+  - https://web.stanford.edu/class/cs102/readings/CS224W-intro.pdf
+- 
+- Biological network image
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833320/
 
 ---
