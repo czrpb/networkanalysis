@@ -172,9 +172,7 @@ If *ego* is 1 step away from all other nodes (ie: the center in a star network) 
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Closeness Centrality|![Basic011](../../images/net-ego-abcd-closeness_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-closeness_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-closeness_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-closeness_centrality.png)|
-
-##### References
+|Closeness Centrality|<img alt="Basic011" src="../../images/net-ego-abcd-closeness_centrality.png" width="196"/>|<img alt="Basic021" src="../../images/net-ego-abcd-ab-closeness_centrality.png" width="196" />|<img alt="Basic031" src="../../images/net-ego-abcd-ab-cd-closeness_centrality.png" width="196" />|<img alt="Basic041" src="../../images/net-ego-abcd-complete-closeness_centrality.png" width="196" />|
 
 https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
