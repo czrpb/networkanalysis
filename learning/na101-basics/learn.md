@@ -134,7 +134,18 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 ---
 
-#### Degree
+#### More Examples
+
+Here are more networks, which will be used in later measures also as the above network is pretty simple.
+
+||Star|Clique|Bridge|Complete|
+|---|---|---|---|---|
+|Degree|<img src="../../images/net-ego-abcd-degrees.png" alt="Basic001" width="196"/>|<img src="../../images/net-ego-abcd-ab-degrees.png" alt="Basic002" width="196"/>|<img alt="Basic003" src="../../images/net-ego-abcd-ab-cd-degrees.png" width="196"/>|<img alt="Basic004" src="../../images/net-ego-abcd-complete-degrees.png" width="196"/>|
+|Degree Centrality|<img alt="Basic010" src="../../images/net-ego-abcd-degree_centrality.png" width="196" />|<img alt="Basic020" src="../../images/net-ego-abcd-ab-degree_centrality.png"  width="196"/>|<img alt="Basic030" src="../../images/net-ego-abcd-ab-cd-degree_centrality.png" width="196"/>|<img alt="Basic040" src="../../images/net-ego-abcd-complete-degree_centrality.png" width="196"/>|
+
+---
+
+### Degree Centrality
 
 |The [degree](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree) of a node is the number of connected edges|The most basic centrality statistics is called [degree centrality](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree-centrality)|
 |:-:|:-:|
@@ -142,15 +153,6 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 |<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-degree_centrality.png" />|
 
 A related wholistic measure is [density]().
-
-##### More Examples
-
-Here are more networks, which will be used in later measures also as the above network is pretty simple.
-
-||Star|Clique|Bridge|Complete|
-|---|---|---|---|---|
-|Degree|![Basic001](../../images/net-ego-abcd-degrees.png)|![Basic002](../../images/net-ego-abcd-ab-degrees.png)|![Basic003](../../images/net-ego-abcd-ab-cd-degrees.png)|![Basic004](../../images/net-ego-abcd-complete-degrees.png)|
-|Degree Centrality|![Basic010](../../images/net-ego-abcd-degree_centrality.png)|![Basic020](../../images/net-ego-abcd-ab-degree_centrality.png)|![Basic030](../../images/net-ego-abcd-ab-cd-degree_centrality.png)|![Basic040](../../images/net-ego-abcd-complete-degree_centrality.png)|
 
 ---
 
