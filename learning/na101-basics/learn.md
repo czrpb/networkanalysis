@@ -11,29 +11,24 @@ math: katex
 
 ## Overview
 
+---
+
 ### What is a network?
 
-![10x13 Random](../../images/net-10x13-random.png)
+<table>
+  <tr>
+    <td><img alt="10x13 Random" src="../../images/net-10x13-random.png"/></td>
+    <td>A <i>network</i> is a set of <i>nodes</i> and <i>edges</i> that connect them.
+    <br/>
+    <i>Network Analysis</i> is the study of the *structure* of the connected nodes.
+    </td>
+  </tr>
+</table>
 
-A [network](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#network) is a set of [nodes](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#node) and [edges](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#edge)
 
-|Node|Edge|
-
-**Reading and Viewing**
-
-https://en.wikipedia.org/wiki/Network_science
-
-https://visiblenetworklabs.com/guides/network-science-101/
-
-[Exploring Complex Networks](ref/2001-ExploringComplexNetworks-Strogatz.pdf)
-
-##### Additional Material
-
-[The Structure and Function of Complex Networks](ref/2003-TheStructureAndFunctionOfComplexNetworks-Newman.pdf)
-
-> .
-
-> .
+Reading:
+  * https://en.wikipedia.org/wiki/Network_science
+  * [The Structure and Function of Complex Networks](ref/2003-TheStructureAndFunctionOfComplexNetworks-Newman.pdf)
 
 \pagebreak
 
