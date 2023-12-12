@@ -28,7 +28,8 @@ Networks
   - Centrality
 - Synthetic (Slides 15-)
   - Density
-  - 
+  - Cliques
+  - Components
 - Small-worlds (Slides )
 
 ---
@@ -80,7 +81,7 @@ Networks
 <table>
   <tr>
     <td colspan="2">
-      https://en.wikipedia.org/wiki/Network_science
+      <a href="https://en.wikipedia.org/wiki/Network_science">https://en.wikipedia.org/wiki/Network_science</a>
       <br/>
       <a href="ref/2003-TheStructureAndFunctionOfComplexNetworks-Newman.pdf">The Structure and Function of Complex Networks</a>
     </td>
@@ -124,7 +125,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
     <td>
     <p>The basic analytic statistics on networks are measures that have their focus on nodes and their "importance" in the network.</p>
     <br>
-    <p>The technical term for this is called <a href="https://github.com/czrpb/networkanalysis/blob/main/glossary.md#centrality">centrality</a> and thus these are <i>centrality measures</i>.</p>
+    <p>The technical term for this is called <i>centrality</i> and thus these are <i>centrality measures</i>.</p>
     <br>
     <p><a href="https://en.wikipedia.org/wiki/Centrality">https://en.wikipedia.org/wiki/Centrality</a></p>
     <br>
@@ -213,11 +214,11 @@ The basic synthetic, or wholistic, statistics on networks are measures meant to 
 
 <p>Real world networks exhibit what is now called "small-world" characteristics. Unlike random networks, small-worlds radically reduce average dyad distances due to scale-free degree distributions and distant connections.</p>
 
-<p>https://en.wikipedia.org/wiki/Small-world_network</p>
+https://en.wikipedia.org/wiki/Small-world_network
 
 <img src="images/net-smallworld.png" />
 
-["Collective dynamics of 'small-world' networks"](https://www.nature.com/articles/30918)
+["Collective dynamics of 'small-world' networks"; Nature (pdf)](https://www.nature.com/articles/30918)
 
 ---
 
