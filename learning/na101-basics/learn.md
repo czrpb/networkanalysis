@@ -134,7 +134,18 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 ---
 
-#### More Examples
+### Degree Centrality
+
+|The degree of a node is the number of connected edges|The most basic centrality statistics is called degree centrality.|
+|:-:|:-:|
+|$d(i) = \text{number of edges connected to node} \ i$|$C^{D}_{i} = \frac {d(i)} {n-1}$|
+|<img src="../../images/net-basic-001-degrees.png" />|<img src="../../images/net-basic-001-degree_centrality.png" />|
+
+A related wholistic measure is [density]().
+
+---
+
+#### Degree Centrality: More Examples
 
 Here are more networks, which will be used in later measures also as the above network is pretty simple.
 
@@ -142,17 +153,6 @@ Here are more networks, which will be used in later measures also as the above n
 |---|---|---|---|---|
 |Degree|<img src="../../images/net-ego-abcd-degrees.png" alt="Basic001" width="196"/>|<img src="../../images/net-ego-abcd-ab-degrees.png" alt="Basic002" width="196"/>|<img alt="Basic003" src="../../images/net-ego-abcd-ab-cd-degrees.png" width="196"/>|<img alt="Basic004" src="../../images/net-ego-abcd-complete-degrees.png" width="196"/>|
 |Degree Centrality|<img alt="Basic010" src="../../images/net-ego-abcd-degree_centrality.png" width="196" />|<img alt="Basic020" src="../../images/net-ego-abcd-ab-degree_centrality.png"  width="196"/>|<img alt="Basic030" src="../../images/net-ego-abcd-ab-cd-degree_centrality.png" width="196"/>|<img alt="Basic040" src="../../images/net-ego-abcd-complete-degree_centrality.png" width="196"/>|
-
----
-
-### Degree Centrality
-
-|The [degree](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree) of a node is the number of connected edges|The most basic centrality statistics is called [degree centrality](https://github.com/czrpb/networkanalysis/blob/main/glossary.md#degree-centrality)|
-|:-:|:-:|
-|$$d(i) = \text{number of edges connected to node} \ i$$|$$C^{D}_{i} = \frac {d(i)} {n-1} $$|
-|<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-degrees.png" />|<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-degree_centrality.png" />|
-
-A related wholistic measure is [density]().
 
 ---
 
@@ -169,7 +169,7 @@ $$
 
 |$n-1$|$\sum l(i, j)$||
 |:-:|:-:|:-:|
-|3|3|<img src="https://github.com/czrpb/networkanalysis/blob/main/images/net-basic-001-closeness_centrality.png" />|
+|3|3|<img src="../../images/net-basic-001-closeness_centrality.png" />|
 
 ##### More Examples
 
