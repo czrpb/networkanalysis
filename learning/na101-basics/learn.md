@@ -23,7 +23,7 @@ Networks
 - Overview (Slides 1-7)
   - by way of Example and Discussion
   - in the Real World
-  - defined
+  - *network* Defined
 - Analytic (Slides 8-14)
   - Centrality
 - Synthetic (Slides 15-)
