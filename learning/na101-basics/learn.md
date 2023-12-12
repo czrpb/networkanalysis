@@ -178,6 +178,18 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 ---
 
+### Betweenness Centrality
+
+---
+
+#### Betweenness Centrality: More Examples
+
+||Star|Clique|Bridge|Complete|
+|---|---|---|---|---|
+|Closeness Centrality|<img alt="Basic101" src="../../images/net-ego-abcd-betweenness_centrality.png" width="196"/>|<img alt="Basic201" src="../../images/net-ego-abcd-ab-betweenness_centrality.png" width="196" />|<img alt="Basic031" src="../../images/net-ego-abcd-ab-cd-closeness_centrality.png" width="196" />|<img alt="Basic041" src="../../images/net-ego-abcd-complete-closeness_centrality.png" width="196" />|
+
+---
+
 #### Decay
 
 ##### More Examples
@@ -185,12 +197,6 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
 |Decay Centrality|![Basic011](../../images/net-ego-abcd-decay_centrality.png)|![Basic021](../../images/net-ego-abcd-ab-decay_centrality.png)|![Basic031](../../images/net-ego-abcd-ab-cd-decay_centrality.png)|![Basic041](../../images/net-ego-abcd-complete-decay_centrality.png)|
-
----
-
-#### Betweenness
-
-.
 
 ---
 
