@@ -186,7 +186,7 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 ||Star|Clique|Bridge|Complete|
 |---|---|---|---|---|
-|Closeness Centrality|<img alt="Basic101" src="../../images/net-ego-abcd-betweenness_centrality.png" width="196"/>|<img alt="Basic201" src="../../images/net-ego-abcd-ab-betweenness_centrality.png" width="196" />|<img alt="Basic031" src="../../images/net-ego-abcd-ab-cd-closeness_centrality.png" width="196" />|<img alt="Basic041" src="../../images/net-ego-abcd-complete-closeness_centrality.png" width="196" />|
+|Betweenness Centrality|<img alt="Basic101" src="../../images/net-ego-abcd-betweenness_centrality.png" width="196"/>|<img alt="Basic201" src="../../images/net-ego-abcd-ab-betweenness_centrality.png" width="196" />|<img alt="Basic031" src="../../images/net-ego-abcd-ab-cd-betweenness_centrality.png" width="196" />|<img alt="Basic041" src="../../images/net-ego-abcd-complete-closeness_centrality.png" width="196" />|
 
 ---
 
