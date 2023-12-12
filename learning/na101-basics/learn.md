@@ -266,24 +266,24 @@ https://en.wikipedia.org/wiki/Small-world_network
   <tr>
     <td class="small-size">0.29<br/>0.44</td>
     <td class="small-size">"</td>
-    <td>"</td>
-    <td>"</td>
-    <td>"</td>
-    <td>0.29<br/>0.47</td>
-    <td>0.29<br/>0.44</td>
-    <td>0.36<br/>0.58</td>
-    <td>0.29<br/>0.44</td>
-    <td>0.36<br/>0.58</td>
-    <td>0</td>
-    <td>2</td>
-    <td>5</td>
-    <td>9</td>
-    <td>13</td>
-    <td>0</td>
-    <td>2</td>
-    <td>5</td>
-    <td>9</td>
-    <td>13</td>
+    <td class="small-size">"</td>
+    <td class="small-size">"</td>
+    <td class="small-size">"</td>
+    <td class="small-size">0.29<br/>0.47</td>
+    <td class="small-size">0.29<br/>0.44</td>
+    <td class="small-size">0.36<br/>0.58</td>
+    <td class="small-size">0.29<br/>0.44</td>
+    <td class="small-size">0.36<br/>0.58</td>
+    <td class="small-size">0</td>
+    <td class="small-size">2</td>
+    <td class="small-size">5</td>
+    <td class="small-size">9</td>
+    <td class="small-size">13</td>
+    <td class="small-size">0</td>
+    <td class="small-size">2</td>
+    <td class="small-size">5</td>
+    <td class="small-size">9</td>
+    <td class="small-size">13</td>
   </tr>
   </tr>
 </table>
