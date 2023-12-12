@@ -85,7 +85,7 @@ Networks
     </td>
   </tr>
   <tr>
-    <td><img src="../../images/stanford-cs102-network-basicdef.png" width="512" /></td>
+    <td><img src="../../images/stanford-cs102-network-basicdef.png" width="490" /></td>
     <td><img src="../../images/stanfor-cs224w-componentsofanetwork.png" width="512" /></td>
   </tr>
 </table>
