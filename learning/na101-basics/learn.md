@@ -10,6 +10,8 @@ style: |
   }
 ---
 
+![bg](images/net-bg.png)
+
 # Network Analysis 101: Basics
 
 Quentin Crain
@@ -18,7 +20,7 @@ Quentin Crain
 
 ## Agenda
 
-Networks
+![bg right:33%](images/net-bg-2.png)
 
 - Overview (Slides 1-7)
   - by way of Example and Discussion
