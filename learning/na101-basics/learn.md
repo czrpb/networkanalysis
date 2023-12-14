@@ -41,9 +41,11 @@ Quentin Crain
 - Selfish: I love network science!
   - Practicing the Feynman method
 - Educative: Want to spread the knowledge!
+  - I believe there are some *Network Science* measures that everyone ought to know like we know mean, variance, standard deviation, etc.
 - Preferential: What sorts of presentations do people want?
   - "Academic" vs "Project"
   - "Informational" vs "Interactive"
+  - "Theoretical" vs "Practical"
 
 ---
 
@@ -142,7 +144,7 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
 
 |The *degree* of a node is the number of connected edges|The most basic centrality statistics is called *degree centrality*|
 |:-:|:-:|
-|$d(i) = \text{number of edges connected to node} \ i$|$C^{D}_{i} = \frac {d(i)} {n-1}$|
+|$d(i) = \text{number of edges connected to node} \ i$|$Centrality^{D}_{i} = \frac {d(i)} {n-1}$|
 |<img src="images/net-basic-001-degrees.png" />|<img src="images/net-basic-001-degree_centrality.png" />|
 
 A related wholistic measure is *density*.
@@ -166,7 +168,7 @@ Here are more networks, which will be used in later measures also as the above n
 
 If *ego* is 1 step away from all other nodes (ie: the center in a star network) the sum would be $n - 1$. Since generally we want measures $0 \leq c \leq 1$, let us consider this to be the maximum of $1$ and thus closeness would be defined as:
 
-|$n-1$|$\sum l(i, j)$|$Cent^{C}_{i} = \frac {n-1} {\sum l(i, j)}$|
+|$n-1$|$\sum l(i, j)$|$Centrality^{C}_{i} = \frac {n-1} {\sum l(i, j)}$|
 |:-:|:-:|:-:|
 |3|3|<img src="images/net-basic-001-closeness_centrality.png" />|
 
@@ -184,12 +186,72 @@ https://www.youtube.com/watch?v=89mxOdwPfxA&t=810
 
 ### Betweenness Centrality
 
+*Betweeness* is a measure that means to identify nodes which are bottlenecks/bridges/brokers for flow/influence/power between clusters of nodes.
+
+If *ego* is often on the paths<sup>*</sup> between other nodes (ie: the center in a star network), betweenness would be defined as:
+
+$$
+Centrality^{B}_{i} = \frac {\sigma_{i}(i,j)} {\sigma(i,j)}
+$$
+
+where $\sigma$ is the number of *shortest paths* between nodes $i$ and $j$.
+
+["A Set of Measures of Centrality based on Betweenness"; Freeman (1977)](ref/1977-ASetOfMeasuresOfCentralityBasedOnBetweenness-Freeman.pdf)
+
 ---
 
 #### Betweenness Centrality: More Examples
 
+<style scoped>
+  .small-size {
+    font-size:8pt;
+    margin: 0px;
+    padding: 0px;
+  }
+</style>
+
+<table class="small-size">
+  <tr>
+    <td><i>EGO</i></td>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+    <td>d</td>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td>-</td>
+    <td>0/1</td>
+    <td>1/3</td>
+    <td>0/1</td>
+  </tr>
+  <tr>
+    <td>b</td>
+    <td>-</td>
+    <td>-</td>
+    <td>0/1</td>
+    <td>1/3</td>
+  </tr>
+  <tr>
+    <td>c</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>0/1</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
+
 ||Star|Clique|Bridge|Complete|
-|---|---|---|---|---|
+|--:|---|---|---|---|
+|$\sigma(i,j)$|6|6|6||
+|$\sigma_{ego}(i,j)$|6|5|4|2|
 |Betweenness Centrality|<img alt="Basic101" src="images/net-ego-abcd-betweenness_centrality.png" width="196"/>|<img alt="Basic201" src="images/net-ego-abcd-ab-betweenness_centrality.png" width="196" />|<img alt="Basic031" src="images/net-ego-abcd-ab-cd-betweenness_centrality.png" width="196" />|<img alt="Basic041" src="images/net-ego-abcd-complete-betweenness_centrality.png" width="196" />|
 
 ---
