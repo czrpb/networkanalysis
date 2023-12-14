@@ -8,6 +8,10 @@ style: |
   section {
     font-size: 20pt;
   }
+
+  a {
+    font-size: 13pt;
+  }
 ---
 
 ![bg](images/net-bg.png)
@@ -33,6 +37,7 @@ Quentin Crain
   - Cliques
   - Components
 - Small-worlds (Slides )
+- Bonus / Random
 
 ---
 
@@ -131,9 +136,9 @@ https://www.youtube.com/watch?v=yAtsm5xkb5c
     <br>
     <p>The technical term for this is called <i>centrality</i> and thus these are <i>centrality measures</i>.</p>
     <br>
-    <p><a href="https://en.wikipedia.org/wiki/Centrality">https://en.wikipedia.org/wiki/Centrality</a></p>
-    <br>
     <p><a href="https://www.youtube.com/watch?v=NgUj8DEH5Tc">https://www.youtube.com/watch?v=NgUj8DEH5Tc</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/Centrality">https://en.wikipedia.org/wiki/Centrality</a></p>
+    <p><a href="ref/2021-CentralityMeasuresInNetworks-BlockJacksonTebaldi.pdf">"Centrality Measures in Networks" Block Jackson Tebaldi 2021</a></p>
     </td>
   </tr>
 </table>
@@ -196,7 +201,7 @@ $$
 
 where $\sigma$ is the number of *shortest paths* between nodes $i$ and $j$.
 
-["A Set of Measures of Centrality based on Betweenness"; Freeman (1977)](ref/1977-ASetOfMeasuresOfCentralityBasedOnBetweenness-Freeman.pdf)
+["A Set of Measures of Centrality based on Betweenness" Freeman (1977)](ref/1977-ASetOfMeasuresOfCentralityBasedOnBetweenness-Freeman.pdf)
 
 ---
 
@@ -282,11 +287,13 @@ https://en.wikipedia.org/wiki/Small-world_network
 
 <img src="images/net-smallworld.png" />
 
-["Collective dynamics of 'small-world' networks"; Nature (pdf)](https://www.nature.com/articles/30918)
+"Collective dynamics of 'small-world' networks" [Nature](https://www.nature.com/articles/30918) [(pdf)](ref/1998-CollectiveDynamicsOfSmallWorldNetworks-WattsStrogatz.pdf)
 
 ---
 
 ### Distant Connections
+
+##### Degree & Closeness
 
 <style scoped>
   .small-size {
@@ -373,6 +380,14 @@ https://en.wikipedia.org/wiki/Small-world_network
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4833320/
 - Small-world image
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3604768/
+
+---
+
+### Bonus / Random
+
+* Reminder: We have access to a lot thru Intel.
+* This presentation was written in markdown* and built with [marp](https://marp.app/).
+* This presentation was delivered via github [Pages](https://pages.github.com/).
 
 ---
 
