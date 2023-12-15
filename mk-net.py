@@ -82,7 +82,7 @@ if centrality_funcs:
         )
 
 fig, ax = plt.subplots(figsize=dim[-1])
-title.append(str(nx.diameter(g)))
+title.append(f"Den: {nx.density(g)}  Dia: {nx.diameter(g)}")
 ax.set_title("\n".join(title))
 nx.draw_networkx(g)
 plt.show()
