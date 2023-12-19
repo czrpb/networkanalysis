@@ -13,9 +13,9 @@ More formally it is an $n \times n$ matrix $g$ where a node is $g_{ij}$ with a v
 For the network with nodes $N = ({\text{Node-A},\space\text{Node-B},\space\text{Node-C}})$ and this adjacency matrix:
 
 $$
-g = \begin{pmatrix} 0 & 1 & 1
-    \\ 1 & 0 & 1
-    \\ 1 & 1 & 0
+g = \begin{pmatrix} 0 & 1 & 1 \\
+    1 & 0 & 1 \\
+    1 & 1 & 0
 \end{pmatrix}
 $$
 
