@@ -14,4 +14,8 @@ Info includes:
 
 And a set of basic statistical measures on *networks*, specifically the 3 main centrality measures.
 
-[Network Analysis 101: Basics](learn.html)
+[Network Analysis 10x](learn.html)
+
+## Glossary of Network Science Terms
+
+[glossary.md](glossary.md)
