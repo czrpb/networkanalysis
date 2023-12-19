@@ -16,18 +16,6 @@ For the network with nodes $N = ({\text{Node-A},\space\text{Node-B},\space\text{
 |:---:|:---:|
 |$g =\begin{pmatrix} 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{pmatrix}$|![ABC](images/net-clique-abc.png)|
 
-### Bridge
-
-A node in a network such that if removed increases the number of components in the network.
-
-A good, though not the only, example in the following network would be $\text{Node-Z}$:
-
-![ABC](images/net-bridge.png)
-
-when removed results in:
-
-![ABC](images/net-2components.png)
-
 ## Centrality
 
 *Centrality* is a measure of a node's "importance" in the network.
@@ -360,6 +348,22 @@ Aliases: *Vertex*
 A path is a set of edges that connect 2 nodes, without repeating nodes.
 
 See *Walk*, *Geodesic*, *Cycle*.
+
+### Relation
+
+A *relation* is a connection between 2 nodes in a network. Common terms for this are *link*/*tie* in sociological literature and *edge* from graph theory.
+
+#### Bridge
+
+A *bridge* is a tie such that when removed increases the number of components in the network.
+
+A good, though not the only, example in the following network would be $\text{Node-Z}$:
+
+![ABC](images/net-bridge.png)
+
+when removed results in:
+
+![ABC](images/net-2components.png)
 
 ### Star
 
