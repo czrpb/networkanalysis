@@ -10,19 +10,11 @@ More formally it is an $n \times n$ matrix $g$ where a node is $g_{ij}$ with a v
 
 ##### Example
 
-For the network with nodes $N = ({\text{Node-A},\space\text{Node-B},\space\text{Node-C}})$ and this adjacency matrix:
+For the network with nodes $N = ({\text{Node-A},\space\text{Node-B},\space\text{Node-C}})$ and this adjacency matrix, gives this network:
 
-$$
-g =\begin{pmatrix}
-0 & 1 & 1 \\
-1 & 0 & 1 \\
-1 & 1 & 0
-\end{pmatrix}
-$$
-
-gives this network:
-
-![ABC](images/net-clique-abc.png)
+|Adjacency Matrix|Graph|
+|:---:|:---:|
+|$g =\begin{pmatrix} 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{pmatrix}$|![ABC](images/net-clique-abc.png)|
 
 ### Bridge
 

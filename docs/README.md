@@ -18,4 +18,4 @@ And a set of basic statistical measures on *networks*, specifically the 3 main c
 
 ## Glossary of Network Science Terms
 
-[glossary.md](glossary.md)
+[glossary.md](https://github.com/czrpb/networkanalysis/blob/main/docs/glossary.md)
