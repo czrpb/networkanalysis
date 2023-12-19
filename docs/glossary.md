@@ -10,11 +10,18 @@ More formally it is an $n \times n$ matrix $g$ where a node is $g_{ij}$ with a v
 
 ##### Example
 
-For the network with nodes $N = ({\text{Node-A},\space\text{Node-B},\space\text{Node-C}})$ and this adjacency matrix, gives this network:
+For the network with nodes $N = ({\text{Node-A},\space\text{Node-B},\space\text{Node-C}})$ and this adjacency matrix:
 
-|Adjacency Matrix|Graph|
-|:---:|:---:|
-|$g =\begin{pmatrix} 0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0 \end{pmatrix}$|![ABC](images/net-clique-abc.png)|
+$$
+g = \begin{pmatrix} 0 & 1 & 1
+    \\ 1 & 0 & 1
+    \\ 1 & 1 & 0
+\end{pmatrix}
+$$
+
+gives this network:
+
+![ABC](images/net-clique-abc.png)
 
 ## Centrality
 
