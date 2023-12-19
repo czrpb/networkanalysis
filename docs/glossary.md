@@ -1,5 +1,25 @@
 # Glossary of Network Terms
 
+## Symbols Defined
+
+The following symbols are standardized:
+
+|Symbol|Definition|
+|---:|:---:|
+|$\mathscr{G}$|Network or Graph|
+|$\mathscr{N} = (n_{1}, n_{2}, ..., n_{g})$|Nodes (aka: actors, vertices, etc) in $\mathscr{G}$|
+|$g$|Number of nodes in $\mathscr{G}$|
+|$\mathscr{L} = (l_{1}, l_{2}, ..., l_{L})$|Lines (aka: edges, ties, links, etc) in $\mathscr{G}$|
+|$L$|Number of lines in a $\mathscr{G}$|
+|$l_{k} = (n_{i}, n_{j})$|A distinct line and its node pair|
+|$d(n_{i})$|A node's *degree*|
+|$\bar{d}$|*Mean* node degree in $\mathscr{G}$|
+|$S_{D}^{2}$|*Variance* of $\mathscr{G}$'s node degrees|
+|$\Delta$|*Density* of $\mathscr{G}$|
+|$C$|*Centrality* measures|
+|$C_{A}(n_{i})$|A specific *centrality* measure, $A$, for the node $n_{i}$|
+|$C_{A}(n^{*})$|The largest value for th centrality measure $A$ in this specific $\mathscr{G}$; or $\max_{i} C_{A}(n_{i})$|
+
 ### Adjacency Matrix
 
 A common data structure used to represent a network.
