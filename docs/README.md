@@ -10,7 +10,7 @@ My work on *Network Analysis*.
   </tr>
   <tr>
     <td>
-This is a set of slides for a "class" on the basics of *Network Analysis*.
+<p>This is a set of slides for a "class" on the basics of *Network Analysis*.</p>
 
 Info includes:
 
@@ -18,7 +18,7 @@ Info includes:
 - What is a *network*?
 - Where are *network science* concepts used?
 
-And a set of basic statistical measures on *networks*, specifically the 3 main centrality measures.
+<p>And a set of basic statistical measures on *networks*, specifically the 3 main centrality measures.</p>
     </td>
     <td>Under<br/>Construction</td>
   </tr>
