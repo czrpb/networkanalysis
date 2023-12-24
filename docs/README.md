@@ -14,9 +14,11 @@ My work on *Network Analysis*.
 
 Info includes:
 
-- What is *network analysis* / *network science*?
-- What is a *network*?
-- Where are *network science* concepts used?
+<ul>
+  <li>What is *network analysis* / *network science*?</li>
+  <li>What is a *network*?</li>
+  <li>Where are *network science* concepts used?</li>
+</ul>
 
 <p>And a set of basic statistical measures on *networks*, specifically the 3 main centrality measures.</p>
     </td>
