@@ -17,11 +17,11 @@ style: |
 
 # Network Analysis Presentations
 
-- Network Analysis 101 - Basic Measures
+- Network Analysis 101 - Analytic Measures
   - [Introduction](na101.html)
-  - [Analytics](na101.html#8)
-  - [Synthetic](na101.html#15)
-- Network Analysis 102 - More Measures
-  - [Introduction]()
+  - [Centrality](na101.html#8)
+  - [Small-world Networks](na101.html#)
+- Network Analysis 102 - Synthetic Measures
+  - [Introduction](na102.html)
   - [Analytics]()
   - [Synthetic]()
