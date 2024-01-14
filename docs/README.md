@@ -22,9 +22,9 @@ Info for the 101 presentation includes:
 <p>The set of basic analytic statistical measures on *networks* are measures on the nodes of a network:</p>
 <ul>
   <li>Degree: Ordering nodes' importance on the number of its neighbors</li>
-  <li>Closeness</li>
-  <li>Betweenness</li>
-  <li>Decay</li>
+  <li>Closeness: Ordering nodes' importance on how near they are to all other nodes</li>
+  <li>Betweenness: Ordering nodes' importance on their frequency between all nodes</li>
+  <li>Decay: Ordering nodes' </li>
 </ul>
     </td>
     <td>

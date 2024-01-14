@@ -19,7 +19,7 @@ style: |
 
 - Network Analysis 101 - Analytic Measures
   - [Introduction](na101.html)
-  - [Centrality](na101.html#8)
+  - [Centrality](na101.html#10)
   - [Small-world Networks](na101.html#)
 - Network Analysis 102 - Synthetic Measures
   - [Introduction](na102.html)
