@@ -5,24 +5,31 @@ My work on *Network Analysis*.
 <table>
   <tr><th align="center" colspan="2"><a href="learn.html">Network Analysis 10x Presentations</a></th></tr>
   <tr>
-    <th>101: Basics</th>
-    <th>102: More Basics</th>
+    <th>101: Intro & Analytic Measures</th>
+    <th>102: Synthetic Measures</th>
   </tr>
   <tr>
     <td>
-<p>This is a set of slides for a "class" on the basics of *Network Analysis*.</p>
-
-Info includes:
+Info for the 101 presentation includes:
 
 <ul>
   <li>What is *network analysis* / *network science*?</li>
   <li>What is a *network*?</li>
-  <li>Where are *network science* concepts used?</li>
+  <li>What are the basic analytic measures on networks?</li>
+  <li>What are <i>small-world</i> networks?</li>
 </ul>
 
-<p>And a set of basic statistical measures on *networks*, specifically the 3 main centrality measures.</p>
+<p>The set of basic analytic statistical measures on *networks* are measures on the nodes of a network:</p>
+<ul>
+  <li>Degree: Ordering nodes' importance on the number of its neighbors</li>
+  <li>Closeness</li>
+  <li>Betweenness</li>
+  <li>Decay</li>
+</ul>
     </td>
-    <td>Under<br/>Construction</td>
+    <td>
+<p>This is a set of </p>
+    </td>
   </tr>
 </table>
 
