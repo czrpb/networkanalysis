@@ -84,10 +84,19 @@ if centrality_funcs:
                for n in g])
         )
 
-ecc = sum(nx.eccentricity(g).values()) / len(nx.eccentricity(g))
+try:
+  dia = nx.diameter(g)
+except:
+  dia = "n/a"
+  
+try:
+  ecc = sum(nx.eccentricity(g).values()) / len(nx.eccentricity(g))
+  ecc = f"{ecc:.2}"
+except:
+  ecc = "n/a"
 
 fig, ax = plt.subplots(figsize=dim[-1])
-title.append(f"Den: {nx.density(g):.2}  Ecc: {ecc:.2}  Dia: {nx.diameter(g)}")
+title.append(f"Den: {nx.density(g):.2}  Ecc: {ecc}  Dia: {dia}")
 ax.set_title("\n".join(title))
 nx.draw_networkx(g)
 plt.show()
