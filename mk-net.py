@@ -100,3 +100,5 @@ title.append(f"Den: {nx.density(g):.2}  Ecc: {ecc}  Dia: {dia}")
 ax.set_title("\n".join(title))
 nx.draw_networkx(g)
 plt.show()
+
+nx.write_gexf(g, "net.gexf")

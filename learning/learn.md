@@ -23,5 +23,6 @@ style: |
   - [Small-world Networks](na101.html#19)
 - Network Analysis 102 - Synthetic Measures
   - [Introduction](na102.html)
-  - [Analytics]()
-  - [Synthetic]()
+  - [Paths & Density](na102.html#5)
+  - [Connectedness & Components](na102.html#7)
+  - [Community](na102.html#10)

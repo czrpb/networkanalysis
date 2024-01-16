@@ -1,5 +1,5 @@
+import sys
 import matplotlib.pyplot as plt
-
 import networkx as nx
 
 kc = nx.karate_club_graph()
@@ -49,18 +49,23 @@ while nodes_by_degree:
         del communities[n]
 
     #1/countdown
-    if len(communities) == 2:
+    if len(communities) == int(sys.argv[1]):
         break
 
 print(communities)
 
-k1, k2 = communities.keys()
+# leaders = list(reversed(communities.keys()))
+# for l2 in leaders[:-1]:
+#     for l1 in leaders[1:]:
+#         communities[l2][1] = communities[l2][1] - communities[l1][1]
+
+# print(communities)
+
+k1, k2, *_ = communities.keys()
 print(k1)
 print(k2)
 
 communities[k2][1] = communities[k2][1] - communities[k1][1]
-
-print(communities)
 
 el = [[k1, _] for _ in communities[k1][1]]
 print(el)
@@ -68,8 +73,6 @@ el += [[k2, _] for _ in communities[k2][1]]
 print(el)
 
 g = nx.Graph(el)
-print(sorted(kc.nodes))
-print(sorted(g.nodes))
 
 nx.draw_networkx(g)
 plt.show()
@@ -79,7 +82,5 @@ nx.draw_networkx_nodes(kc, pos, nodelist=[k1]+list(communities[k1][1]), node_sha
 nx.draw_networkx_nodes(kc, pos, label=k2, nodelist=[k2]+list(communities[k2][1]), node_shape="o")
 nx.draw_networkx_edges(kc, pos)
 nx.draw_networkx_labels(kc, pos)
-
-print(list(nx.neighbors(kc, 8)))
 
 plt.show()
