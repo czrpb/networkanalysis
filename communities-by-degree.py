@@ -2,9 +2,9 @@ import sys
 import matplotlib.pyplot as plt
 import networkx as nx
 
-kc = nx.karate_club_graph()
+main = nx.read_gexf(sys.argv[1])
 
-nodes_by_degree = list(reversed(sorted(list((d,n) for n,d in kc.degree()))))
+nodes_by_degree = list(reversed(sorted(list((d,n) for n,d in main.degree()))))
 print(nodes_by_degree)
 
 #g_copy = nx.Graph(g)
@@ -12,7 +12,7 @@ print(nodes_by_degree)
 communities = {}
 
 for d, n in nodes_by_degree:
-    n_neighbors = set(nx.neighbors(kc, n))
+    n_neighbors = set(nx.neighbors(main, n))
     communities[n] = [d, n_neighbors]
 
 print(communities)
@@ -49,7 +49,7 @@ while nodes_by_degree:
         del communities[n]
 
     #1/countdown
-    if len(communities) == int(sys.argv[1]):
+    if len(communities) == int(sys.argv[2]):
         break
 
 print(communities)
@@ -77,10 +77,10 @@ g = nx.Graph(el)
 nx.draw_networkx(g)
 plt.show()
 
-pos = nx.spring_layout(kc)
-nx.draw_networkx_nodes(kc, pos, nodelist=[k1]+list(communities[k1][1]), node_shape="s", node_color="red")
-nx.draw_networkx_nodes(kc, pos, label=k2, nodelist=[k2]+list(communities[k2][1]), node_shape="o")
-nx.draw_networkx_edges(kc, pos)
-nx.draw_networkx_labels(kc, pos)
+pos = nx.spring_layout(main)
+nx.draw_networkx_nodes(main, pos, nodelist=[k1]+list(communities[k1][1]), node_shape="s", node_color="red")
+nx.draw_networkx_nodes(main, pos, label=k2, nodelist=[k2]+list(communities[k2][1]), node_shape="o")
+nx.draw_networkx_edges(main, pos)
+nx.draw_networkx_labels(main, pos)
 
 plt.show()
