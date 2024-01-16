@@ -75,7 +75,7 @@ nx.draw_networkx(g)
 plt.show()
 
 pos = nx.spring_layout(kc)
-nx.draw_networkx_nodes(kc, pos, nodelist=[k1]+list(communities[k1][1]), node_shape="s")
+nx.draw_networkx_nodes(kc, pos, nodelist=[k1]+list(communities[k1][1]), node_shape="s", node_color="red")
 nx.draw_networkx_nodes(kc, pos, label=k2, nodelist=[k2]+list(communities[k2][1]), node_shape="o")
 nx.draw_networkx_edges(kc, pos)
 nx.draw_networkx_labels(kc, pos)
