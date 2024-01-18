@@ -4,24 +4,26 @@ import networkx as nx
 
 main = nx.read_gexf(sys.argv[1])
 
-nodes_by_degree = list(reversed(sorted(list((d,n) for n,d in main.degree()))))
-print(nodes_by_degree)
+nodes_by_degree_dec = list(reversed(sorted(list((d,n) for n,d in main.degree()))))
+print(nodes_by_degree_dec)
 
 #g_copy = nx.Graph(g)
 
 communities = {}
 
-for d, n in nodes_by_degree:
-    n_neighbors = set(nx.neighbors(main, n))
+for d, n in nodes_by_degree_dec:
+    n_neighbors = [n for d,n in
+                    sorted([(nx.degree(main, neighbor), neighbor) for neighbor in nx.neighbors(main, n)])]
     communities[n] = [d, n_neighbors]
 
 print(communities)
 
+1/0
 #countdown = 30
 # algo: starting w/ nodes with smallest degree, add them to the largest degreed node they connect to
-while nodes_by_degree:
+while nodes_by_degree_dec:
     #countdown -= 1
-    d, n = nodes_by_degree.pop()
+    d, n = nodes_by_degree_dec.pop()
     n_neighbors = communities[n][1]
     print(n, n_neighbors)
 

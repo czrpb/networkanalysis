@@ -1,49 +1,47 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2024-01-16">
+  <meta lastmodifieddate="2024-01-18">
     <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="Ego&#10;0.62" label="Ego&#10;0.62" />
-      <node id="B&#10;0.17" label="B&#10;0.17" />
-      <node id="C&#10;0.45" label="C&#10;0.45" />
-      <node id="D&#10;0.18" label="D&#10;0.18" />
-      <node id="E&#10;0.29" label="E&#10;0.29" />
-      <node id="B1&#10;0.00" label="B1&#10;0.00" />
-      <node id="B2&#10;0.04" label="B2&#10;0.04" />
-      <node id="C1&#10;0.06" label="C1&#10;0.06" />
-      <node id="C2&#10;0.00" label="C2&#10;0.00" />
-      <node id="C3&#10;0.00" label="C3&#10;0.00" />
-      <node id="C4&#10;0.00" label="C4&#10;0.00" />
-      <node id="D1&#10;0.00" label="D1&#10;0.00" />
-      <node id="D2&#10;0.04" label="D2&#10;0.04" />
-      <node id="E1&#10;0.05" label="E1&#10;0.05" />
-      <node id="E2&#10;0.00" label="E2&#10;0.00" />
-      <node id="E3&#10;0.01" label="E3&#10;0.01" />
+      <node id="A" label="A" />
+      <node id="B" label="B" />
+      <node id="C" label="C" />
+      <node id="D" label="D" />
+      <node id="a1" label="a1" />
+      <node id="a2" label="a2" />
+      <node id="a3" label="a3" />
+      <node id="a4" label="a4" />
+      <node id="b1" label="b1" />
+      <node id="b2" label="b2" />
+      <node id="d1" label="d1" />
+      <node id="d2" label="d2" />
+      <node id="c1" label="c1" />
+      <node id="c2" label="c2" />
+      <node id="c3" label="c3" />
     </nodes>
     <edges>
-      <edge source="Ego&#10;0.62" target="B&#10;0.17" id="0" />
-      <edge source="Ego&#10;0.62" target="C&#10;0.45" id="1" />
-      <edge source="Ego&#10;0.62" target="D&#10;0.18" id="2" />
-      <edge source="Ego&#10;0.62" target="E&#10;0.29" id="3" />
-      <edge source="B&#10;0.17" target="B1&#10;0.00" id="4" />
-      <edge source="B&#10;0.17" target="B2&#10;0.04" id="5" />
-      <edge source="C&#10;0.45" target="C1&#10;0.06" id="6" />
-      <edge source="C&#10;0.45" target="C2&#10;0.00" id="7" />
-      <edge source="C&#10;0.45" target="C3&#10;0.00" id="8" />
-      <edge source="C&#10;0.45" target="C4&#10;0.00" id="9" />
-      <edge source="D&#10;0.18" target="D1&#10;0.00" id="10" />
-      <edge source="D&#10;0.18" target="D2&#10;0.04" id="11" />
-      <edge source="E&#10;0.29" target="E1&#10;0.05" id="12" />
-      <edge source="E&#10;0.29" target="E2&#10;0.00" id="13" />
-      <edge source="E&#10;0.29" target="E3&#10;0.01" id="14" />
-      <edge source="B1&#10;0.00" target="B2&#10;0.04" id="15" />
-      <edge source="B2&#10;0.04" target="C1&#10;0.06" id="16" />
-      <edge source="D1&#10;0.00" target="D2&#10;0.04" id="17" />
-      <edge source="D2&#10;0.04" target="E1&#10;0.05" id="18" />
-      <edge source="E1&#10;0.05" target="E3&#10;0.01" id="19" />
-      <edge source="E2&#10;0.00" target="E3&#10;0.01" id="20" />
+      <edge source="A" target="B" id="0" />
+      <edge source="A" target="D" id="1" />
+      <edge source="A" target="a1" id="2" />
+      <edge source="A" target="a2" id="3" />
+      <edge source="A" target="a3" id="4" />
+      <edge source="A" target="a4" id="5" />
+      <edge source="B" target="C" id="6" />
+      <edge source="B" target="b1" id="7" />
+      <edge source="B" target="b2" id="8" />
+      <edge source="C" target="D" id="9" />
+      <edge source="C" target="c1" id="10" />
+      <edge source="C" target="c2" id="11" />
+      <edge source="C" target="c3" id="12" />
+      <edge source="D" target="d1" id="13" />
+      <edge source="D" target="d2" id="14" />
+      <edge source="b1" target="b2" id="15" />
+      <edge source="d1" target="d2" id="16" />
+      <edge source="c1" target="c2" id="17" />
+      <edge source="c1" target="c3" id="18" />
+      <edge source="c2" target="c3" id="19" />
     </edges>
   </graph>
 </gexf>
