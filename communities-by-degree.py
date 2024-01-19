@@ -7,11 +7,17 @@ main = nx.read_gexf(sys.argv[1])
 
 nodes = list(nx.nodes(main))
 
+##########################
+
 def get_random_communities():
     ns = list(nodes)
     c1 = ns[:len(ns)//2]
     c2 = ns[len(ns)//2:]
     return c1, c2
+
+communities = get_random_communities()
+
+##########################
 
 def get_largest_neighbor(n):
     largest_neighbor, *neighbors = list(nx.neighbors(main, n))
@@ -34,13 +40,13 @@ def get_communities():
     print(communities)
     return [[k]+v for k, v in communities.items()]
 
-community_1, community_2 = get_random_communities()
+communities = get_communities()
 
-community_1, community_2 = get_communities()
+##############################
 
 pos = nx.spring_layout(main)
-nx.draw_networkx_nodes(main, pos, nodelist=community_1, node_shape="s", node_color="red")
-nx.draw_networkx_nodes(main, pos, nodelist=community_2, node_shape="o")
+for community, shape, color in zip(communities, "so<>", ["red", "green", "blue", "yellow"]):
+    nx.draw_networkx_nodes(main, pos, nodelist=community, node_shape=shape, node_color=color)
 nx.draw_networkx_edges(main, pos)
 nx.draw_networkx_labels(main, pos)
 
