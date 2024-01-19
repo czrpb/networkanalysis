@@ -13,7 +13,13 @@ def get_random_communities():
     c2 = ns[len(ns)//2:]
     return c1, c2
 
+def get_communities():
+    ns = sorted([(nx.degree(main, n), n) for n in nodes])
+    print(ns)
+
 community_1, community_2 = get_random_communities()
+
+get_communities()
 
 pos = nx.spring_layout(main)
 nx.draw_networkx_nodes(main, pos, nodelist=community_1, node_shape="s", node_color="red")
