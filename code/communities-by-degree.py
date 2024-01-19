@@ -32,7 +32,7 @@ def get_communities():
 
     ns = sorted([(nx.degree(main, n), n) for n in nodes])
     print(ns)
-    for _, n in ns[:-2]:
+    for _, n in ns[:-4]:
         largest_neighbor = get_largest_neighbor(n)
         communities[largest_neighbor].append(n)
         del communities[n]
