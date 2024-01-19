@@ -1,49 +1,47 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2024-01-16">
+  <meta lastmodifieddate="2024-01-19">
     <creator>NetworkX 3.2.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="Ego" label="Ego" />
+      <node id="A" label="A" />
       <node id="B" label="B" />
       <node id="C" label="C" />
       <node id="D" label="D" />
-      <node id="E" label="E" />
-      <node id="B1" label="B1" />
-      <node id="B2" label="B2" />
-      <node id="C1" label="C1" />
-      <node id="C2" label="C2" />
-      <node id="C3" label="C3" />
-      <node id="C4" label="C4" />
-      <node id="D1" label="D1" />
-      <node id="D2" label="D2" />
-      <node id="E1" label="E1" />
-      <node id="E2" label="E2" />
-      <node id="E3" label="E3" />
+      <node id="a1" label="a1" />
+      <node id="a2" label="a2" />
+      <node id="a3" label="a3" />
+      <node id="a4" label="a4" />
+      <node id="b1" label="b1" />
+      <node id="b2" label="b2" />
+      <node id="d1" label="d1" />
+      <node id="d2" label="d2" />
+      <node id="c1" label="c1" />
+      <node id="c2" label="c2" />
+      <node id="c3" label="c3" />
     </nodes>
     <edges>
-      <edge source="Ego" target="B" id="0" />
-      <edge source="Ego" target="C" id="1" />
-      <edge source="Ego" target="D" id="2" />
-      <edge source="Ego" target="E" id="3" />
-      <edge source="B" target="B1" id="4" />
-      <edge source="B" target="B2" id="5" />
-      <edge source="C" target="C1" id="6" />
-      <edge source="C" target="C2" id="7" />
-      <edge source="C" target="C3" id="8" />
-      <edge source="C" target="C4" id="9" />
-      <edge source="D" target="D1" id="10" />
-      <edge source="D" target="D2" id="11" />
-      <edge source="E" target="E1" id="12" />
-      <edge source="E" target="E2" id="13" />
-      <edge source="E" target="E3" id="14" />
-      <edge source="B1" target="B2" id="15" />
-      <edge source="B2" target="C1" id="16" />
-      <edge source="D1" target="D2" id="17" />
-      <edge source="D2" target="E1" id="18" />
-      <edge source="E1" target="E3" id="19" />
-      <edge source="E2" target="E3" id="20" />
+      <edge source="A" target="B" id="0" />
+      <edge source="A" target="D" id="1" />
+      <edge source="A" target="a1" id="2" />
+      <edge source="A" target="a2" id="3" />
+      <edge source="A" target="a3" id="4" />
+      <edge source="A" target="a4" id="5" />
+      <edge source="B" target="C" id="6" />
+      <edge source="B" target="b1" id="7" />
+      <edge source="B" target="b2" id="8" />
+      <edge source="C" target="D" id="9" />
+      <edge source="C" target="c1" id="10" />
+      <edge source="C" target="c2" id="11" />
+      <edge source="C" target="c3" id="12" />
+      <edge source="D" target="d1" id="13" />
+      <edge source="D" target="d2" id="14" />
+      <edge source="b1" target="b2" id="15" />
+      <edge source="d1" target="d2" id="16" />
+      <edge source="c1" target="c2" id="17" />
+      <edge source="c1" target="c3" id="18" />
+      <edge source="c2" target="c3" id="19" />
     </edges>
   </graph>
 </gexf>
